@@ -1,0 +1,403 @@
+
+namespace = tasty_events
+
+event = {
+    id = tasty_events.Meta_Morph
+    title = "metamorph.0001.name"
+    desc = "metamorph.0001.desc"
+    picture = GFX_evt_achieve_metamorphosis
+    is_triggered_only = yes
+
+    option = {
+        name = "We are... Reborn..."
+        # Effects or modifiers here
+    }
+}
+
+# Reawakened Judgement Matrix Gates of Hell
+planet_event = {
+	id = tasty_events.01
+	title = tasty_events.01.name
+	desc = tasty_events.01.desc
+	picture = GFX_hellgate_entrance
+	show_sound = event_swarm_started
+ 
+	is_triggered_only = yes
+
+	immediate = {
+		create_archaeological_site = hellgate_digsite
+	}
+
+	option = {
+		name = OK
+		
+	}
+}
+
+# Gates of Hell Stage 2
+fleet_event = { #1st step
+	id = tasty_events.02 
+	title = tasty_events.02.name
+	desc = tasty_events.02.desc
+	picture = GFX_hellgate_2
+	location = from
+	show_sound = event_default
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	option = {
+		name = INTERESTING
+		small_artifact_reward = yes
+	}
+
+	after = {
+		from = { set_site_progress_locked = no }
+	}
+}
+
+fleet_event = { #2nd step
+	id = tasty_events.03
+	title = tasty_events.03.name
+	desc = tasty_events.03.desc
+	picture = GFX_hellgate_3
+	location = from
+	show_sound = event_worrying_signal
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	option = {
+		name = INTERESTING
+		small_artifact_reward = yes
+        
+        # Use this to trigger events after stages
+        #hidden_effect = {
+		#	owner = {
+		#		country_event = { id = clones.13 days = 30 random = 30 }
+		#		country_event = { id = clones.4 days = 360 random = 360 }
+		#	}
+		#}
+	
+    }
+
+	after = {
+		from = { set_site_progress_locked = no }
+	}
+}
+
+fleet_event = { #3rd step
+	id = tasty_events.04
+	title = tasty_events.04.name
+	desc = tasty_events.04.desc
+	picture = GFX_hellgate_4
+	location = from
+	show_sound = event_swarm_started
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	option = {
+		name = INTERESTING
+		small_artifact_reward = yes
+	}
+
+	after = {
+		from = { set_site_progress_locked = no }
+	}
+}
+
+fleet_event = { #Outcome
+	id = tasty_events.05
+	title = tasty_events.05.name
+	desc = tasty_events.05.desc
+	picture = GFX_hellgate_5
+	location = from
+	show_sound = event_mystic_reveal
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	option = { #Study
+		name = INTERESTING
+		owner = {
+			add_relic = r_soul_crucible
+		}
+	}
+
+	after = {
+		from = { set_site_progress_locked = no }
+	}
+}
+
+planet_event = {
+    id = tasty_events.1234567890
+    hide_window = yes
+    is_triggered_only = yes
+    pre_triggers = {
+        has_owner = yes
+    }
+	immediate = {
+		generate_start_buildings_and_districts = yes            # built-in game effect
+		generate_origin_my_mod_name_example_start_pops = yes    # this is the custom Pop spawning effect in this mod's common/scripted_effects/my_mod_name_scripted_effects.txt file
+		generate_home_planet_final_pass = yes                   # built-in game effect
+	}
+}
+
+
+# Universal Game Start Event
+event = {
+    id = tasty_events.999
+    hide_window = yes
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    immediate = {
+
+        # Rogue Judicator
+        every_country = {
+            limit = {
+                is_country_type = default
+                has_origin = origin_reawakened_judgement_maxtrix
+            }
+
+            #species = {
+            #    set_habitability_trait = { trait = trait_pc_nuked_preference }
+            #}
+
+            capital_scope = {
+
+				clear_deposits = yes
+
+                # Add deposits
+				add_deposit = d_tomb_world_ruins
+				add_deposit = d_tomb_world_wasteland
+				add_deposit = d_exterminators_ruins
+				add_deposit = d_former_battlefield
+				add_deposit = d_mass_graves
+				# energy 3*3
+				add_deposit = d_hot_springs
+				add_deposit = d_searing_desert
+				add_deposit = d_searing_desert
+				add_deposit = d_underwater_vent
+				# mineral 3*4
+				add_deposit = d_veiny_cliffs
+				add_deposit = d_ore_rich_caverns
+				add_deposit = d_ore_rich_caverns
+				add_deposit = d_submerged_ore_veins
+                # Clear pre-existing pops from any prior game start step
+
+                every_owned_pop_group = {
+                    kill_pop_group = { pop_group = THIS percentage = 0.8 }
+                }
+
+                # Remove vanilla districts before adding new ones
+                remove_all_districts = yes
+
+                # Add custom districts
+				while = {
+					count = 2
+					add_district = district_nexus
+				}
+				while = {
+					count = 1
+					add_district = district_industrial
+				}
+				while = {
+					count = 2
+					add_district = district_generator
+				}
+				while = {
+					count = 1
+					add_district = district_mining
+				}
+
+                validate_planet_buildings_and_districts = yes
+                
+                create_pop_group = { 
+					species = root.species 
+					category = ruler 
+					size = 0
+				}
+				create_pop_group = { 
+					species = root.species 
+					category = specialist 
+					size = 1000
+				}
+				create_pop_group = { 
+					species = root.species 
+					category = worker 
+					size = 900
+				}				
+				create_pop_group = { 
+					species = root.species 
+					category = civilian 
+					size = 0
+				}
+                
+                check_planet_employment = yes
+
+				# Begin the Heaven's Error archeology event
+                planet_event = { id = tasty_events.01 days = 100 random = 50 }
+            }
+        }
+
+        # Escaped Bioweapons
+        every_country = {
+            limit = {
+                is_country_type = default
+                has_origin = origin_escaped_bioweapons
+            }
+            capital_scope = {
+                add_building = building_bioweapon_development_cluster
+                
+                # Clear pre-existing pops
+                #every_owned_pop_group = {
+                #    kill_pop_group = { pop_group = THIS percentage = 0.8 }
+                #}
+                
+                # (If you are adding custom districts for this origin, add them here after remove_all_districts if needed)
+                # remove_all_districts = yes 
+                # ... add_district ...
+
+                validate_planet_buildings_and_districts = yes
+                generate_start_pops = yes
+                check_planet_employment = yes
+            }
+        }
+
+        # Nanorobotic Plague
+        every_country = {
+            limit = {
+                is_country_type = default
+                has_origin = origin_nanorobotic_dispersion
+            }
+            capital_scope = {
+                # Clear pre-existing pops
+                every_owned_pop_group = {
+                    kill_pop_group = { pop_group = THIS percentage = 0.8 }
+                }
+
+                remove_all_districts = yes
+
+				while = {
+					count = 1
+					add_district = district_cytoskeleton
+				}
+				while = {
+					count = 1
+					add_district = district_nanomass
+				}
+				while = {
+					count = 4
+					add_district = district_planetary_magma_extraction
+				}
+                
+                validate_planet_buildings_and_districts = yes
+
+                create_pop_group = { 
+					species = root.species 
+					category = ruler 
+					size = 0
+				}
+				create_pop_group = { 
+					species = root.species 
+					category = specialist 
+					size = 500
+				}
+				create_pop_group = { 
+					species = root.species 
+					category = worker 
+					size = 1200
+				}				
+				create_pop_group = { 
+					species = root.species 
+					category = civilian 
+					size = 0
+				}
+				
+				check_planet_employment = yes
+            }
+        }
+
+        # Treasure Hoarders
+        every_country = {
+            limit = {
+                is_country_type = default
+                has_origin = origin_treasure_planet
+            }
+            capital_scope = {
+                # Clear pre-existing pops
+                every_owned_pop_group = {
+                    kill_pop_group = { pop_group = THIS percentage = 0.8 }
+                }
+
+                clear_deposits = yes
+                remove_all_districts = yes
+
+				while = {
+					count = 2
+					add_district = district_treasure_horde
+				}
+				while = {
+					count = 3
+					add_district = district_distribution_center
+				}
+				while = {
+					count = 1
+					add_district = district_artificers
+				}
+				while = {
+					count = 1
+					add_district = district_treasure_dive_site
+				}
+				while = {
+					count = 2
+					add_district = district_vaults
+				}
+                
+                validate_planet_buildings_and_districts = yes
+
+                create_pop_group = { 
+					species = root.species 
+					category = ruler 
+					size = 200
+				}
+				create_pop_group = { 
+					species = root.species 
+					category = specialist 
+					size = 900
+				}
+				create_pop_group = { 
+					species = root.species 
+					category = worker 
+					size = 1000
+				}				
+				create_pop_group = { 
+					species = root.species 
+					category = civilian 
+					size = 0
+				}
+
+                check_planet_employment = yes
+				
+            }
+        }
+    }
+}
