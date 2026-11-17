@@ -1,0 +1,111 @@
+#################
+# ASCENSION PATHS
+#################
+
+
+
+@ap_metamorphasis_POINTS = 8
+@ap_metamorphasis_COST_MULT = -0.15
+ap_metamorphasis = {
+	on_enabled = {
+		#add_research_option = tech_genetic_resequencing
+		hidden_effect = {
+			country_event = { id = tasty_events.Meta_Morph }
+		}
+	}
+	possible = {
+		custom_tooltip = {
+			fail_text = "synthetic_empire_biological_ascension"
+			NOT = { has_trait = trait_mechanical }
+		}
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_5"
+			num_ascension_perks > 4
+		}
+		#custom_tooltip = {
+		#	fail_text = "requires_technology_glandular_acclimation"
+		#	has_technology = tech_glandular_acclimation
+		#}
+		custom_tooltip = {
+			fail_text = "requires_embryonic_organism_civic"
+			has_valid_civic = civic_embryonic_organism
+		}
+	}
+	modifier = {
+		#description = ap_metamorphasis_modifier_desc
+		#description_parameters = {
+		#	POINTS = @ap_metamorphasis_POINTS
+		#	COST_MULT = @ap_metamorphasis_COST_MULT
+		#}
+
+		modify_species_cost_mult = @ap_metamorphasis_COST_MULT
+		BIOLOGICAL_species_trait_points_add = 8
+	}
+
+	potential = {
+		
+		NOT = {
+			has_ascension_perk = ap_metamorphasis
+			has_authority = "auth_machine_intelligence"
+		}
+		is_mechanical_empire = no
+		is_cyborg_empire = no
+	}
+
+	
+	ai_weight = {
+		factor = 10000
+	}
+}
+
+
+####################################
+# Violet Flood
+####################################
+
+ap_nano_worlds = {
+	on_enabled = {
+		custom_tooltip = "allow_nanomass_worlds"
+		custom_tooltip = "allow_nanoplasma_worlds"
+		
+		hidden_effect = {
+			add_research_option = tech_terrestrial_sculpting
+			add_research_option = tech_ecological_adaptation
+			add_research_option = tech_climate_restoration
+			#country_event = { id = tasty_events.Meta_Morph }
+		}
+	}
+
+	potential = {
+		host_has_dlc = "Synthetic Dawn Story Pack"
+		has_authority = auth_machine_intelligence
+		NOT = {
+			has_ascension_perk = ap_nano_worlds
+		}
+	}
+
+	modifier = {
+		country_base_sr_living_metal_produces_add = 0.15
+		planet_orbital_bombardment_damage = -0.1
+		empire_size_colonies_mult = -0.05
+		empire_size_pops_mult = -0.05
+	}
+
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_2"
+			num_ascension_perks > 1
+		}
+		custom_tooltip = {
+			fail_text = "requires_violet_flood_civic"
+			OR = {
+				has_origin = origin_nanorobotic_dispersion
+				has_valid_civic = civic_violet_flood
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 1
+	}
+}

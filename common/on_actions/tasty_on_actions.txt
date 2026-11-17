@@ -1,0 +1,131 @@
+on_game_start_country = {
+	
+    events = {
+		tasty_events.999
+	}
+}	
+	
+
+
+
+# No scope, like on_game_start
+on_monthly_pulse = {
+	events = {		
+			
+		}
+	
+}
+
+
+# No scope, like on_game_start
+on_bi_yearly_pulse = {
+	events = {		
+		
+	}
+}
+
+# No scope, like on_game_start
+on_yearly_pulse = {
+	events = {
+		
+	}
+	
+}
+
+
+
+# No scope, like on_game_start
+on_five_year_pulse = {
+	events = {
+		
+	}	
+}
+
+# No scope, like on_game_start
+on_decade_pulse = {
+	events = {
+		
+	}
+}
+
+# No scope, like on_game_start
+on_mid_game_pulse = {
+	events = {
+		
+	}
+}
+
+# No scope, like on_game_start
+on_late_game_pulse = {
+	events = {
+	}
+}
+
+# this = country
+on_monthly_pulse_country = {
+	events = {
+			
+		
+	}
+}
+
+# this = country
+on_yearly_pulse_country = {
+	events = {
+		
+		
+	}
+}
+
+on_ruler_set = {
+	
+}
+
+
+# this = country
+on_bi_yearly_pulse_country = {
+	events = {
+		
+	}
+}
+
+# this = country
+on_five_year_pulse_country = {
+	events = {
+		# some event
+	}
+}
+
+
+# this = country
+on_decade_pulse_country = {
+	events = {
+		
+	}
+	
+}
+
+# this = country
+on_mid_game_pulse_country = {
+	events = {
+	}
+}
+
+# this = country
+on_late_game_pulse_country = {
+	events = {
+	}
+}
+
+# A planet has been colonized.
+# Scope = Planet
+on_colonized = {
+	events = {
+			
+	}
+}
+
+# Fires for each planet every year (counting up from colonisation date, includes home planet)
+on_colony_yearly_pulse = {
+	
+}

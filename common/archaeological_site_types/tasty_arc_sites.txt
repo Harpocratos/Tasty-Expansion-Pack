@@ -1,0 +1,62 @@
+# site_type_name = {				# Key of the site, used for name and desc lookup etc.
+#	max_instances = <int>			# Max instances of this type a galaxy can have, only checked when using `create_archaeological_site = random`
+#	weight = <scriptable value>		# Weight used for random weight, only used when using `create_archaeological_site = random`. scriptable value type is defined either by '<int>' or `<mean time to happen>`.
+#	stages = <int>					# Should match number of defined stages below.
+#	potential = <trigger>			# Trigger checking if a scope with this=fleet ,prev=archaeological site is potential to excavate (this will add/remove this option without giving the player a reason).
+#	allow = <trigger>				# Trigger checking if a scope with this=fleet ,prev=archaeological site is allowed to excavate (this will toggle enable/disabled mode on buttons etc).
+#	stage = {						# Stage definition, order dependent.
+#		difficulty = <intervall int> 	# min max intervall type. intervall is defined either by '<int>' or '{ min = <int> max=<int> }' where the later will randomize a value between min and max.
+#		icon = <string>			# rune icon gfx type.
+#		event = <string>			# event to fire when finished the state.
+#	}
+#	stage = {...}					# Second stage
+#	on_roll_failed = <effect>			# effect to fire when a roll fails, with scope this=fleet ,from=archaeological site
+#}
+
+# Hellgate Site
+hellgate_digsite = {
+	desc = hellgate_digsite_desc
+	picture = GFX_hellgate_entrance
+	stages = 4
+
+	weight = 0 #set via initialiser
+	allow = {
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+
+	#on_visible = {
+	#	country_event = { id = story.5 days = 30 }
+	#}
+
+	#difficulty a bit high because gives relic at end
+	stage = {
+		difficulty = 0
+		icon = GFX_archaeology_runes_C1
+		event = tasty_events.02
+	}
+	stage = {
+		difficulty = 0
+		icon = GFX_archaeology_runes_C2
+		event = tasty_events.03
+	}
+	stage = {
+		difficulty = 0
+		icon = GFX_archaeology_runes_C3
+		event = tasty_events.04
+	}
+	stage = {
+		difficulty = 0
+		icon = GFX_archaeology_runes_C4
+		event = tasty_events.05
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = space_station_random_events } #Random Events
+		}
+	}
+}

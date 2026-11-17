@@ -1,0 +1,348 @@
+# Violet Flood Existing Zones (as per original file structure)
+zone_nucleosynthesis = {
+	icon = GFX_colony_type_foundry # Placeholder icon
+	base_buildtime = 400
+
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        OR = {
+            is_planet_class = pc_nanomass
+            is_planet_class = pc_nanoplasma
+        }
+    }
+
+	unlock = { # planet scope
+		always = yes
+	}
+
+	resources = {
+		category = planet_districts # Should be planet_zones or similar if costing
+		cost = {
+			minerals = 100 # Example cost to build the zone itself
+            alloys = 500
+		}
+	}
+
+	# Buildings that can be constructed in the site provided by the district's zone slot
+	include = {
+		building_atomic_nucleosynthesis_pool
+		building_bioreticulator
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = 0 # This zone type does not add new planet-wide building slots
+	}
+
+    # This triggered modifier on the zone itself is unusual, usually it's on the district or buildings
+    triggered_district_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { has_civic = civic_violet_flood }
+            OR = {
+                is_planet_class = pc_nanomass
+                is_planet_class = pc_nanoplasma
+            }
+        }
+        modifier = { # These are effectively direct bonuses from building the zone
+            job_nucleosynthesis_pool_add = 100 # 1 job
+            planet_housing_add = 100 # 1 housing
+        }
+    }
+}
+
+zone_thermal_arteries = {
+	icon = GFX_colony_type_generator # Placeholder icon
+	base_buildtime = 400
+
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        is_planet_class = pc_nanomass
+    }
+
+	unlock = { # planet scope
+		always = yes
+	}
+
+	resources = {
+		category = planet_districts # Should be planet_zones
+		cost = {
+			energy = 2000 # Example cost
+            alloys = 10
+		}
+	}
+
+	include = {
+		building_atomic_nucleosynthesis_pool
+        building_planetary_tendril
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = 0
+	}
+
+    triggered_district_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { has_civic = civic_violet_flood }
+            is_planet_class = pc_nanomass
+        }
+        modifier = {
+            job_thermal_artery_add = 100 # 1 job
+            planet_housing_add = 100 # 1 housing
+        }
+    }
+}
+
+zone_bio_dissolvers = {
+	icon = GFX_colony_type_industrial # Placeholder icon
+	base_buildtime = 400
+
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        OR = {
+            is_planet_class = pc_nanomass
+            is_planet_class = pc_nanoplasma
+        }
+    }
+
+	unlock = { # planet scope
+		always = yes
+	}
+
+	resources = {
+		category = planet_districts # Should be planet_zones
+		cost = {
+			minerals = 1000 # Example cost
+            alloys = 100
+		}
+	}
+
+	include = {
+		building_bioform_dissolver_pool
+        building_bioreticulator
+	}
+
+	planet_modifier = {
+		zone_building_slots_add = 0
+	}
+
+    triggered_district_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { has_civic = civic_violet_flood }
+            OR = {
+                is_planet_class = pc_nanomass
+                is_planet_class = pc_nanoplasma
+            }
+        }
+        modifier = {
+            job_biomolecular_dissolver_pool_add = 100 # 1 job
+            planet_housing_add = 100 # 1 housing
+        }
+    }
+}
+
+zone_cytoskeleton = {
+	icon = GFX_colony_type_urban # Placeholder icon
+	base_buildtime = 400
+
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        OR = {
+            is_planet_class = pc_nanomass
+            is_planet_class = pc_nanoplasma
+        }
+    }
+
+	unlock = { # planet scope
+		always = yes
+	}
+
+	resources = {
+		category = planet_districts # Should be planet_zones
+		cost = {
+			minerals = 100 # Example cost
+            alloys = 10
+		}
+	}
+
+
+	include = {
+        all
+	}
+
+    max_buildings = 6
+
+	planet_modifier = {
+        zone_building_slots_add = 3
+	}
+
+    triggered_district_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = { has_civic = civic_violet_flood }
+            OR = {
+                is_planet_class = pc_nanomass
+                is_planet_class = pc_nanoplasma
+            }
+        }
+        modifier = {
+            job_laminar_inductor_add = 100
+            planet_housing_add = 500
+        }
+    }
+}
+
+# Violet Flood New/Placeholder Zones
+zone_violet_tempest_synthesis = {
+    icon = GFX_colony_type_generator
+    base_buildtime = 400
+    potential = {
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        is_planet_class = pc_nanoplasma
+    }
+    unlock = { always = yes }
+    resources = { category = planet_zones cost = { minerals = 500 energy = 5000 } }
+    include = {
+        building_energy_grid
+        building_physics_lab
+        building_ancible_server
+        building_atomic_nucleosynthesis_pool
+    }
+    planet_modifier = { job_magneto_tempest_field_add = 100 planet_housing_add = 500 } # This zone provides 1 building slot
+}
+
+# VESTIGIAL
+zone_violet_organic_assembly = {
+    icon = GFX_colony_type_industrial # Or GFX_colony_type_food
+    base_buildtime = 400
+    potential = {
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        is_planet_class = pc_nanomass
+    }
+    unlock = { always = yes }
+    resources = { category = planet_zones cost = { minerals = 75 } }
+    include = {
+        building_bioreticulator
+    }
+    planet_modifier = { zone_building_slots_add = 1 }
+}
+
+zone_violet_elemental_harvesting = {
+    icon = GFX_colony_type_mining
+    base_buildtime = 400
+    potential = {
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        is_planet_class = pc_nanoplasma
+    }
+    unlock = { always = yes }
+    resources = { category = planet_zones cost = { minerals = 5000 } }
+    include = {
+        building_crystal_mines
+        building_gas_extraction_well
+        building_mote_harvesting_traps
+        building_synthetic_crystal_plant # If applicable
+        # Add other strategic resource buildings
+    }
+    planet_modifier = { job_element_diffusion_membrane_add = 500 planet_housing_add = 500 }
+}
+
+
+# Treasure Hoarders New Zones
+zone_treasure_hoard_display = {
+    icon = GFX_colony_type_commercial # Or a more fitting icon for treasure/unity
+    base_buildtime = 300
+
+    potential = { # planet scope
+        is_planet_class = pc_treasure
+        # owner = { has_civic = civic_treasure_hoarders }
+    }
+    unlock = { # planet scope
+        always = yes
+    }
+    resources = {
+        category = planet_zones
+        cost = { rare_crystals = 50 energy = 5000 } # Example cost
+    }
+    include = {
+        building_autochthon_monument # Vanilla Unity
+        building_hypercomms_forum # Vanilla Unity/Influence
+        building_galactic_stock_exchange # Vanilla Trade
+        building_commercial_zone # Vanilla Trade/Clerks
+        building_civilian_industries # Vanilla Consumer Goods
+        building_food_processing_1 # Vanilla Food
+    }
+    planet_modifier = {
+        job_treasure_keepers_add = 100 planet_housing_add = 500
+    }
+}
+
+zone_treasure_goods_distribution = {
+    icon = GFX_colony_type_commercial
+    base_buildtime = 300
+    potential = { is_planet_class = pc_treasure }
+    unlock = { always = yes }
+    resources = { category = planet_zones cost = { energy = 1000 } }
+    include = {
+        building_autochthon_monument # Vanilla Unity
+        building_hypercomms_forum # Vanilla Unity/Influence
+        building_galactic_stock_exchange # Vanilla Trade
+        building_commercial_zone # Vanilla Trade/Clerks
+        building_civilian_industries # Vanilla Consumer Goods
+        building_food_processing_1 # Vanilla Food
+    }
+    planet_modifier = { job_goods_distributor_add = 100 planet_housing_add = 500 }
+}
+
+zone_treasure_artifact_creation = {
+    icon = GFX_colony_type_research # Or GFX_colony_type_industrial
+    base_buildtime = 300
+    potential = { is_planet_class = pc_treasure }
+    unlock = { always = yes }
+    resources = { category = planet_zones cost = { rare_crystals = 100 alloys = 200 } }
+    include = {
+        building_research_lab_1 # Vanilla Research
+        building_artisan_guild # Vanilla Artisans (for crafting valuable goods)
+    }
+    planet_modifier = { job_artifact_curators_add = 100 planet_housing_add = 500 }
+}
+
+zone_treasure_submerged_expedition = {
+    icon = GFX_colony_type_mining # Placeholder for "exploration" or "extraction"
+    base_buildtime = 300
+    potential = { is_planet_class = pc_treasure }
+    unlock = { always = yes }
+    resources = { category = planet_zones cost = { energy = 2750 alloys = 250 } }
+    include = {
+        building_strategic_resource_collection_1 # Generic strategic resource building
+        building_research_lab_1 # For studying findings
+    }
+    planet_modifier = { job_treasure_divers_add = 100 planet_housing_add = 500 }
+}
+
+zone_treasure_secure_storage = {
+    icon = GFX_colony_type_fortress # Or GFX_colony_type_urban
+    base_buildtime = 400
+    potential = { is_planet_class = pc_treasure }
+    unlock = { always = yes }
+    resources = { category = planet_zones cost = { energy = 2750 alloys = 1000 } }
+    include = {
+        all
+    }
+    planet_modifier = {
+        job_vault_guardians_add = 100 
+        planet_housing_add = 500
+    }
+    max_buildings = 6
+
+	planet_modifier = {
+        zone_building_slots_add = 3
+	}
+}

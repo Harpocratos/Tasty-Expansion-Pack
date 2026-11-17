@@ -1,0 +1,31 @@
+cb_purge_sin = {
+    show_in_diplomacy = yes
+    show_notification = yes
+
+    aggregated_message_key = "MESSAGE_PURGE_SIN"
+
+    potential = {
+        has_valid_civic = civic_twisted_angels
+    }
+
+
+    is_valid = {
+		NOT = { is_overlord_to = FROM }
+		OR = {
+			is_subject = no
+			overlord = { NOT = { is_same_value = from } }
+		}
+    }
+
+    destroy_if = {
+        NOT = {
+            from = {
+                is_country_type = default
+                NOT = {
+                    # has_ethic = ethic_gestalt_consciousness
+                    has_ethic = ethic_machine_intelligence
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+# Reawakened Judgement Matrix
+part = {
+	location = 1
+	localization = "START_SCREEN_JUDGEMENT"
+
+	trigger = {
+		has_origin = origin_reawakened_judgement_maxtrix
+	}
+}
+
+# Escaped Bioweapons
+part = {
+	location = 1
+	localization = "START_SCREEN_ESC_BIOWEAPONS"
+
+	trigger = {
+		has_origin = origin_escaped_bioweapons
+	}
+}
+
+# Nanorobotic Plague
+part = {
+	location = 1
+	localization = "START_SCREEN_ESC_NANOMASS"
+
+	trigger = {
+		has_origin = origin_nanorobotic_dispersion
+	}
+}
+
+# Treasure Hoarders
+part = {
+	location = 1
+	localization = "START_SCREEN_ESC_TREASURE"
+
+	trigger = {
+		has_origin = origin_treasure_planet
+	}
+}

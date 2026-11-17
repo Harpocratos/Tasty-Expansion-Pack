@@ -1,0 +1,242 @@
+# Violet Flood Existing Slots
+slot_tasty_nucleo = {
+	# start = zone_default # Can define a default zone if desired
+
+    base_buildtime = 400
+
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        OR = {
+            is_planet_class = pc_nanomass
+            is_planet_class = pc_nanoplasma
+        }
+    }
+
+	unlock = { # planet scope
+		always = yes
+	}
+
+	# This slot type allows the 'zone_nucleosynthesis' to be built in it.
+	# We'll define 'zone_nucleosynthesis' in tasty_zones.txt
+	include = {
+        zone_machine_replication
+        zone_factory
+        zone_trade
+		zone_foundry
+        zone_nucleosynthesis
+	}
+
+
+}
+
+slot_tasty_thermal = {
+    base_buildtime = 400
+
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        is_planet_class = pc_nanomass # As per district_planetary_magma_extraction potential
+    }
+
+	unlock = { # planet scope
+		always = yes
+	}
+
+	include = {
+		zone_thermal_arteries
+	}
+
+    inline_script = zones/allowed_zones_minerals
+}
+
+slot_tasty_phage = {
+    base_buildtime = 400
+
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        OR = {
+            is_planet_class = pc_nanomass
+            is_planet_class = pc_nanoplasma
+        }
+    }
+
+	unlock = { # planet scope
+		always = yes
+	}
+
+	include = {
+		zone_bio_dissolvers
+	}
+    inline_script = zones/allowed_zones_food
+}
+
+slot_tasty_cyto = {
+	start = zone_cytoskeleton
+
+    base_buildtime = 400
+
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        OR = {
+            is_planet_class = pc_nanomass
+            is_planet_class = pc_nanoplasma
+        }
+    }
+
+	unlock = { # planet scope
+		always = yes
+	}
+
+	include = {
+		zone_cytoskeleton
+	}
+
+    inline_script = zones/allowed_zones_urban
+}
+
+slot_tasty_tempest_field = {
+    base_buildtime = 400
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        is_planet_class = pc_nanoplasma # As per district_tempest_synthesizer potential
+    }
+    unlock = { # planet scope
+        always = yes
+    }
+    include = {
+        zone_violet_tempest_synthesis # New zone to be defined in tasty_zones.txt
+    }
+    inline_script = zones/allowed_zones_energy
+}
+
+slot_tasty_organic_constr = {
+    base_buildtime = 400
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        is_planet_class = pc_nanomass # As per district_organic_construction_reticuli potential
+    }
+    unlock = { # planet scope
+        always = yes
+    }
+    include = {
+        zone_violet_organic_assembly # New zone to be defined in tasty_zones.txt
+    }
+    inline_script = zones/allowed_zones_food
+}
+
+slot_tasty_element_diff = {
+    base_buildtime = 400
+    potential = { # planet scope
+        exists = owner
+        owner = { has_civic = civic_violet_flood }
+        is_planet_class = pc_nanoplasma # As per district_element_membrane potential
+    }
+    unlock = { # planet scope
+        always = yes
+    }
+    include = {
+        zone_unity
+        zone_research
+        zone_research_physics
+        zone_research_engineering
+        zone_research_society
+        zone_research_unity
+        zone_violet_elemental_harvesting
+    }
+
+
+}
+
+
+# Treasure Hoarders
+slot_tasty_treasure_hoard = {
+    base_buildtime = 300 # Or a value appropriate for Treasure Hoarder theme
+
+    potential = { # planet scope
+        is_planet_class = pc_treasure # Or more general if these districts can be built elsewhere
+        # owner = { has_civic = civic_treasure_hoarders } # If only for them
+    }
+
+    unlock = { # planet scope
+        always = yes # Or link to a technology if desired
+    }
+
+    # This slot will allow building a zone specifically for treasure hoards
+    include = {
+        zone_treasure_hoard_display # New zone to be defined in tasty_zones.txt
+    }
+}
+
+slot_tasty_treasure_distribution = {
+    base_buildtime = 300
+
+    potential = { # planet scope
+        is_planet_class = pc_treasure
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    include = {
+        zone_treasure_goods_distribution # New zone to be defined in tasty_zones.txt
+    }
+}
+
+slot_tasty_treasure_artifice = {
+    base_buildtime = 300
+
+    potential = { # planet scope
+        is_planet_class = pc_treasure
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    include = {
+        zone_treasure_artifact_creation # New zone to be defined in tasty_zones.txt
+    }
+}
+
+slot_tasty_treasure_diving = {
+    base_buildtime = 300
+
+    potential = { # planet scope
+        is_planet_class = pc_treasure
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    include = {
+        zone_treasure_submerged_expedition # New zone to be defined in tasty_zones.txt
+    }
+}
+
+slot_tasty_treasure_vault = {
+
+	start = zone_treasure_secure_storage
+
+    base_buildtime = 400 # Vaults might take longer
+
+    potential = { # planet scope
+        is_planet_class = pc_treasure
+    }
+
+    unlock = { # planet scope
+        always = yes
+    }
+
+    inline_script = zones/allowed_zones_urban
+
+    include = {
+        zone_treasure_secure_storage # New zone to be defined in tasty_zones.txt
+    }
+}

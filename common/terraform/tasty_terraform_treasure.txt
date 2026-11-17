@@ -1,0 +1,548 @@
+
+
+###################################
+# Treasure Hoarders Terraforming
+###################################
+		
+		
+
+# Cut link for now until I find a way to recreate districts?
+#terraform_link = {
+#    from = "pc_treasure"
+#    to = "pc_continental"
+#
+#    resources = {
+#        category = terraforming
+#
+#        cost = {
+#            energy = 10000
+#            food = 5000
+#        }
+#    }
+#
+#    duration = 2000
+#
+#	condition = {
+#		has_technology = "tech_terrestrial_sculpting"
+#	}
+#
+#
+#    ai_weight = {
+#        weight = 0.01
+#    }
+#}
+
+terraform_link = {
+    from = "pc_desert"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals = 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_tropical"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_arid"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_continental"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_ocean"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_tundra"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_arctic"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_alpine"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_savannah"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_molten"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_barren"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_barren_cold"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_frozen"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_nuked"
+    to = "pc_treasure"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 20000
+            rare_crystals= 50
+        }
+    }
+
+    duration = 3000
+
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	potential = {
+		exists = owner
+		has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+	condition = {
+        exists = owner
+        has_valid_civic = civic_treasure_hoarders
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+
+
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        
+        
+

@@ -1,0 +1,376 @@
+#Defensive armies can't transport of the planet
+#maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+#ai_weight: as standard, but note that it pre-filters by whether the country can recruit this army (measuring by whether it is an assault army, whether it has the tech prereqs, and whether it passes potential_country)
+
+
+# Kaiju Living Weapon Armies
+kaiju_army = {
+	damage = 10.0
+	morale_damage = 2.0
+	collateral_damage = 10.0
+	war_exhaustion = 4.0
+	health = 10.0
+	has_morale = no
+	time = 1000
+	icon = GFX_army_type_xenomorph
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2000
+			food = 5000
+		}
+
+		upkeep = {
+			energy = 10
+			food = 1
+		}
+	}
+
+	potential_country = {
+		NOT = { has_authority = auth_machine_intelligence }
+		has_valid_civic = civic_mother_of_monsters
+	}
+
+	prerequisites = { "tech_morphogenetic_field_mastery" }
+
+	ai_weight = {
+		base = 10
+		modifier = {
+			factor = 10
+			is_fallen_empire = yes
+			has_ethic = ethic_fanatic_xenophobe
+		}
+		modifier = {
+			set = 0
+			OR = {
+				is_pacifist = yes
+				is_xenophile = yes
+			}
+		}
+	}
+}
+
+# Apex Predator Armies
+apex_predator_army = {
+	damage = 5.0
+	morale_damage = 2.5
+	collateral_damage = 8.0
+	war_exhaustion = 2.0
+	health = 3.0
+	has_morale = no
+	time = 600
+	icon = GFX_army_type_xenomorph
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 600
+			food = 400
+		}
+
+		upkeep = {
+			energy = 4
+			food = 0.5
+		}
+	}
+
+	potential_country = {
+		NOT = { has_authority = auth_machine_intelligence }
+		has_valid_civic = civic_mother_of_monsters
+	}
+
+	prerequisites = { "tech_morphogenetic_field_mastery" }
+
+	ai_weight = {
+		base = 10
+		modifier = {
+			factor = 10
+			is_fallen_empire = yes
+			has_ethic = ethic_fanatic_xenophobe
+		}
+		modifier = {
+			set = 0
+			OR = {
+				is_pacifist = yes
+				is_xenophile = yes
+			}
+		}
+	}
+}
+
+# Extinction Sterilizer Armies
+extinction_army = {
+	damage = 2.5
+	morale_damage = 2
+	collateral_damage = 7.0
+	war_exhaustion = 1.0
+	health = 2.5
+	has_morale = no
+	time = 200
+	icon = GFX_army_type_xenomorph
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 400
+			food = 150
+		}
+
+		upkeep = {
+			energy = 2
+			food = 0.1
+		}
+	}
+
+	potential_country = {
+		NOT = { has_authority = auth_machine_intelligence }
+		has_valid_civic = civic_mother_of_monsters
+	}
+
+	prerequisites = { "tech_morphogenetic_field_mastery" }
+
+	ai_weight = {
+		base = 10
+		modifier = {
+			factor = 10
+			is_fallen_empire = yes
+			has_ethic = ethic_fanatic_xenophobe
+		}
+		modifier = {
+			set = 0
+			OR = {
+				is_pacifist = yes
+				is_xenophile = yes
+			}
+		}
+	}
+}
+
+# Morbified Armies
+morbified_army = {
+	damage = 1.0
+	morale_damage = 2
+	collateral_damage = 1.0
+	war_exhaustion = 1.0
+	health = 5
+	has_morale = no
+	time = 300
+	icon = GFX_army_type_xenomorph
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 800
+			food = 800
+			amenities = 20
+		}
+
+		upkeep = {
+			energy = 2
+			food = 2
+		}
+	}
+
+	potential_country = {
+		NOT = { has_authority = auth_machine_intelligence }
+		has_valid_civic = civic_morbius
+	}
+
+
+	ai_weight = {
+		base = 10
+		modifier = {
+			factor = 10
+			is_fallen_empire = yes
+			has_ethic = ethic_fanatic_xenophobe
+		}
+		modifier = {
+			set = 0
+			OR = {
+				is_pacifist = yes
+				is_xenophile = yes
+			}
+		}
+	}
+}
+
+# Michael Morbius Armies
+morbius_army = {
+	damage = 20.0
+	morale_damage = 5
+	collateral_damage = 10.0
+	war_exhaustion = 3.0
+	health = 40
+	has_morale = no
+	time = 10000
+	icon = GFX_army_type_xenomorph
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 10000
+			food = 800
+			amenities = 200
+		}
+
+		upkeep = {
+			energy = 30
+			food = 15
+			amenities = 5
+		}
+	}
+
+	potential_country = {
+		NOT = { has_authority = auth_machine_intelligence }
+		has_valid_civic = civic_morbius
+	}
+
+	prerequisites = { "tech_morphogenetic_field_mastery" }
+
+	ai_weight = {
+		base = 10
+		modifier = {
+			factor = 10
+			is_fallen_empire = yes
+			has_ethic = ethic_fanatic_xenophobe
+		}
+		modifier = {
+			set = 0
+			OR = {
+				is_pacifist = yes
+				is_xenophile = yes
+			}
+		}
+	}
+}
+
+
+
+	damage = 1.00
+	health = 1.00
+	morale = 1.00
+	morale_damage = 1.00
+	collateral_damage = 1.00
+	war_exhaustion = 1.00
+	time = 90
+
+
+# Purgation Armies
+purgation_army = {
+	damage = 1.5
+	morale_damage = 2.0
+	collateral_damage = 2
+	war_exhaustion = 1.0
+	health = 2.0
+	has_morale = no
+	time = 180
+	icon = GFX_army_type_xenomorph
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			alloys = 80
+			minerals = 200
+		}
+
+		upkeep = {
+			alloys = 0.05
+			energy = 0.2
+			
+		}
+	}
+
+	potential_country = {
+		has_authority = auth_machine_intelligence
+		has_valid_civic = civic_twisted_angels
+	}
+
+	ai_weight = {
+		base = 0
+	}
+}
+
+
+# Purifier Titan Armies
+purifier_titan_army = {
+	damage = 3
+	morale_damage = 3.0
+	collateral_damage = 1.5
+	war_exhaustion = 2.0
+	health = 5
+	has_morale = no
+	time = 300
+	icon = GFX_army_type_xenomorph
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			sr_dark_matter = 0.1
+			alloys = 120
+			minerals = 200
+		}
+
+		upkeep = {
+			sr_dark_matter = 0.01
+			energy = 0.2
+			
+		}
+	}
+
+	potential_country = {
+		has_authority = auth_machine_intelligence
+		has_valid_civic = civic_twisted_angels
+	}
+
+	ai_weight = {
+		base = 0
+	}
+}
+
+
+# Angel Armies
+angel_army = {
+	damage = 6
+	morale_damage = 6.0
+	collateral_damage = 6
+	war_exhaustion = 2.5
+	health = 8
+	has_morale = no
+	time = 800
+	icon = GFX_army_type_xenomorph
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			alloys = 500
+			sr_dark_matter = 1
+		}
+
+		upkeep = {
+			energy = 4
+			sr_dark_matter = 0.3
+		}
+	}
+
+	potential_country = {
+		has_authority = auth_machine_intelligence
+		has_valid_civic = civic_twisted_angels
+	}
+
+	ai_weight = {
+		base = 0
+	}
+}
+
+

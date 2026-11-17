@@ -1,0 +1,62 @@
+
+
+wg_purge_sin = {
+    casus_belli = cb_purge_sin
+
+    hide_if_no_cb = no
+    release_occupied_systems_on_status_quo = no
+    total_war = yes
+
+    allowed_peace_offers = {
+        status_quo
+        surrender
+        demand_surrender
+    }
+
+    surrender_acceptance = -100
+    war_exhaustion = 0.75
+
+    potential = {
+        has_origin = origin_reawakened_judgement_maxtrix
+    }
+
+    possible = {
+        has_origin = origin_reawakened_judgement_maxtrix
+    }
+
+    on_accept = {
+        hidden_effect = {
+            from = {
+                add_threat = {
+                    who = root
+                    amount = 1.0
+                }
+            }
+        }
+        root = {
+            purge_all_populations = {
+                from = all
+            }
+        }
+    }
+
+    on_status_quo = {
+        hidden_effect = {
+            root = {
+                create_new_empire = {
+                    systems = all_occupied
+                    pop = none
+                }
+            }
+        }
+    }
+
+    ai_weight = {
+        weight = 0
+        modifier = {
+            factor = 2
+            not = { is_pacifist = yes }
+        }
+    }
+}
+

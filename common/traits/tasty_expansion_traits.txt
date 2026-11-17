@@ -1,0 +1,1105 @@
+
+# Tasty traits for advanced genemodding
+
+trait_secret_recipe_dna = {
+	cost = 3
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = no
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 1
+		modify_species_cost_mult = -0.5
+		pop_happiness = 0.2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 1000
+	}
+	random_weight = { base = 0 }
+	ai_weight = {
+		weight = 0.1
+	}
+
+}
+
+
+trait_delicious_2 = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = yes
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 400
+	}
+	random_weight = { weight = 0.001 }
+	ai_weight = {
+		weight = 0.1
+	}
+
+}
+
+trait_delicious_3 = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = no
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 400
+	}
+	random_weight = { weight = 0.001 }
+	ai_weight = {
+		weight = 0.1
+	}
+
+}
+
+trait_delicious_4 = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = no
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 400
+	}
+	random_weight = { weight = 0.001 }
+	ai_weight = {
+		weight = 0.1
+	}
+
+}
+
+
+trait_fucking_delicious = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = yes
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 200
+	}
+	random_weight = { weight = 0.01 }
+	ai_weight = {
+		weight = 0.1
+	}
+
+}
+
+
+trait_tender_flesh = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = yes
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 6
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 600
+	}
+	random_weight = { weight = 0.01 }
+	ai_weight = {
+		weight = 0.1
+	}
+}
+
+
+trait_juicy = {
+	cost = 0
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = yes
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 4
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 600
+	}
+	random_weight = { weight = 0.01 }
+	ai_weight = {
+		weight = 0.1
+	}
+
+}
+
+trait_ketchup_blood = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = no
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 1
+		army_defense_morale_mult = 0.2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 300
+	}
+	random_weight = { base = 0 }
+	ai_weight = {
+		weight = 0.1
+	}
+}
+
+trait_steak_sauce_blood = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = no
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 1
+		army_defense_morale_mult = 0.2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 300
+	}
+	random_weight = { base = 0 }
+	ai_weight = {
+		weight = 0.1
+	}
+
+}
+
+
+trait_crunchy = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = yes
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 3
+		pop_environment_tolerance = 0.20
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 400
+	}
+	ai_weight = {
+		weight = 0.01
+	}
+
+}
+
+trait_cake = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.5
+	initial = yes
+	randomized = no
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		planet_livestock_food_produces_add = 2
+		planet_livestock_minerals_produces_add = 0.5
+		pop_environment_tolerance = -0.1
+		army_attack_damage_mult = -0.5
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 400
+	}
+	random_weight = { base = 0 }
+	ai_weight = {
+		weight = 0.1
+	}
+}
+
+trait_morbpiric = {
+	cost = 1
+	species_possible_remove = {
+		can_remove_beneficial_traits = no
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	potential_crossbreeding_chance = 0.05
+	initial = yes
+	randomized = no
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_growth_speed_reduction = 0.7
+		leader_age = 30
+		pop_environment_tolerance = 0.1
+
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 800
+	}
+	random_weight = { base = 0.005 }
+	ai_weight = {
+		weight = 0.1
+	}
+
+}
+
+
+trait_enhanced_morbpirism = {
+	cost = 1
+	species_possible_remove = {
+		can_remove_beneficial_traits = no
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	potential_crossbreeding_chance = 0
+	initial = yes
+	randomized = no
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		pop_growth_speed_reduction = 0.7
+		leader_age = 1000
+		pop_environment_tolerance = 0.7
+		planet_pops_consumer_goods_upkeep_mult = 1.25
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 1000
+	}
+	random_weight = { base = 0.005 }
+	ai_weight = {
+		weight = 0.1
+	}
+}
+
+
+trait_embryonic_aquatic_form = {
+	cost = 4
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "trait_nerve_stapled" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	modifier = {
+		
+		hive = 0.4
+		pc_ocean_habitability = 2.0
+		pc_continental_habitability = 0.6
+		pc_tropical_habitability = 0.6
+		pc_arctic_habitability = -0.3
+		pc_alpine_habitability = -0.3
+		pc_tundra_habitability = -0.3
+		pc_savannah_habitability = -2.0
+		pc_arid_habitability = -2.0
+		pc_desert_habitability = -2.0	
+
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+trait_embryonic_cryonic_form = {
+	cost = 4
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "trait_nerve_stapled" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	modifier = {
+		
+		hive = 0.4
+		pc_arctic_habitability = 0.6
+		pc_alpine_habitability = 0.6
+		pc_tundra_habitability = 0.6
+		pc_ocean_habitability = 0.3
+		pc_continental_habitability = 0.2
+		pc_tropical_habitability = -0.2
+		pc_savannah_habitability = -2.0
+		pc_arid_habitability = -2.0
+		pc_desert_habitability = -2.0	
+
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+trait_embryonic_thermophilic_form = {
+	cost = 4
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "trait_nerve_stapled" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	modifier = {	
+		hive = 0.4
+		pc_desert_habitability = 0.6	
+		pc_arid_habitability = 0.4
+		pc_savannah_habitability = 0.3
+		pc_continental_habitability = 0.2
+		pc_tropical_habitability = 0.2
+		pc_ocean_habitability = -0.2
+		pc_arctic_habitability = -2.0
+		pc_alpine_habitability = -2.0
+		pc_tundra_habitability = -2.0
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+
+trait_embryonic_chitinous_exoskeleton = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.1
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	opposites = { "trait_embryonic_biometallic_exoskeleton" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	custom_tooltip = TRAIT_CHITINOUS_EXOSKELETON_EFFECT
+	modifier = {	
+		pc_nuked_habitability = 0.2	
+		army_defense_health_mult = 0.2
+		army_morale_health_mult = 0.2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+
+trait_embryonic_biometallic_exoskeleton = {
+	cost = 4
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.1
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	opposites = { "trait_embryonic_chitinous_exoskeleton" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	custom_tooltip = TRAIT_BIOMETALLIC_EXOSKELETON_EFFECT
+	modifier = {	
+		pc_nuked_habitability = 0.5	
+		army_defense_health_mult = 0.8
+		army_attack_health_mult = 0.8
+		army_morale_health_mult = 0.8
+		army_morale_health_mult = 0.8
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+trait_embryonic_elytran_wings = {
+	cost = 2
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.1
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	opposites = { "trait_embryonic_membrane_wings" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+	modifier = {	
+		pop_housing_usage_mult = 0.05
+		planet_structures_upkeep_mult = -0.1
+		planet_jobs_unity_produces_mult = 0.1
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+trait_embryonic_membrane_wings = {
+	cost = 2
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.1
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	opposites = { "trait_embryonic_elytran_wings" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+	modifier = {	
+		pop_housing_usage_mult = 0.05
+		planet_structures_upkeep_mult = -0.1
+		army_morale_damage_mult = 0.1
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+trait_embryonic_bladed_appendages = {
+	cost = 2
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.1
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "opposite" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+	modifier = {	
+		army_damage_mult = 0.5
+
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+
+trait_embryonic_domination_instincts = {
+	cost = 3
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.1
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	opposites = { "trait_embryonic_diligent_laborer_instincts" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+	modifier = {	
+		job_warrior_drone_add = 1
+		planet_stability_add = 0.1
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+trait_embryonic_diligent_laborer_instincts = {
+	cost = 3
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0.1
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	opposites = { "trait_embryonic_domination_instincts" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+	modifier = {	
+		planet_jobs_alloys_produces_mult = 0.1
+		planet_jobs_minerals_produces_mult = 0.1
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 500
+	}
+}
+
+
+trait_metamorphosis_matured_form = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "opposite" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+	modifier = {	
+		hive = 0.4
+		planet_jobs_produces_mult = 0.2
+		pop_environment_tolerance = 0.2
+		pop_growth_speed_reduction = 0.1
+		pop_housing_usage_mult = -0.25
+		species_empire_size_mult = -0.1
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 10000
+	}
+}
+
+
+trait_hive_protector = {
+	cost = 6
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "opposite" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+	modifier = {	
+		planet_jobs_produces_mult = -0.2
+		pop_growth_speed_reduction = 1.0
+		army_damage_mult = 0.2
+		pop_defense_armies_add = 2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 10000
+	}
+}
+
+
+trait_pupae_genesis = {
+	cost = 8
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	opposites = { "trait_hive_protector", "trait_biological_computer" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+	modifier = {	
+		pop_growth_speed = 4.0
+		modify_species_cost_mult = -0.95
+		planet_jobs_produces_mult = -0.7
+		pop_amenities_usage_mult = 1.0
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 100
+	}
+}
+
+
+
+trait_biological_computer = {
+	cost = 8
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	opposites = { "trait_hive_protector" }
+	species_potential_add = {
+		exists = from
+		from = {
+			has_ascension_perk = ap_metamorphasis
+		}
+	}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+
+
+	modifier = {	
+		pop_growth_speed_reduction = 1.0
+		planet_jobs_physics_research_produces_mult = 0.2
+		planet_jobs_society_research_produces_mult = 0.2
+		planet_jobs_engineering_research_produces_mult = 0.2
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 10000
+	}
+}
+
+
+trait_infernal_engine = {
+	cost = 3
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = yes
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { ROBOT MACHINE }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "trait_hive_protector" }
+	#prerequisites = {
+    #    has_civic = civic_twisted_angels
+    #}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+	
+	modifier = {	
+		army_health = 0.5	
+		planet_jobs_unity_produces_mult	= 0.05
+		planet_jobs_alloy_produces_mult = 0.05
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 2000
+	}
+}
+
+trait_revenant_design = {
+	cost = 1
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = yes
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { ROBOT MACHINE }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "trait_hive_protector" }
+	#prerequisites = {
+    #    has_civic = civic_twisted_angels
+    #}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+
+
+	modifier = {	
+		army_damage_mult = 0.05
+		pop_amenities_usage_add = -0.25
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 2000
+	}
+}
+
+trait_temporal_processors = {
+	cost = 4
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = yes
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { ROBOT MACHINE }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "trait_hive_protector" }
+	#prerequisites = {
+    #    has_civic = civic_twisted_angels
+    #}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+
+
+	modifier = {	
+		army_health = 0.1
+		planet_jobs_physics_research_produces_mult = 0.15
+		planet_jobs_engineering_research_produces_mult = 0.05
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 2000
+	}
+}
+
+
+trait_holy_algorithms = {
+	cost = 0
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { ROBOT MACHINE }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "trait_hive_protector" }
+	prerequisites = {
+        has_civic = civic_twisted_angels
+    }
+	#custom_tooltip = TRAIT_EFFECT_LOC
+
+
+	modifier = {	
+		negative_leader_traits_species = -1
+		planet_jobs_unity_produces_mult = 0.05
+		planet_jobs_society_research_produces_mult = -0.05
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 2000
+	}
+}
+
+
+trait_sin_dynamo = {
+	cost = 0
+	#species_possible_remove = {
+	#	can_remove_beneficial_traits = yes
+	#}
+	#species_possible_merge_remove = {
+	#	always = yes
+	#}
+	potential_crossbreeding_chance = 0
+	initial = no
+	randomized = no
+	advanced_trait = no
+	allowed_archetypes = { ROBOT MACHINE }
+	valid_for_all_ethics = no
+	allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	opposites = { "trait_robot_custom_made" }
+	prerequisites = {
+        has_civic = civic_twisted_angels
+    }
+	#custom_tooltip = TRAIT_EFFECT_LOC
+
+
+	modifier = {	
+		planet_pop_assembly_mult = 0.25
+		planet_jobs_produces_mult = 0.05
+		planet_jobs_upkeep_mult = -0.05
+		planet_jobs_society_research_produces_mult = -0.05
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 2000
+	}
+}
+
+
+trait_bioweapon_ancestry = {
+	cost = 0
+	species_possible_remove = {
+		can_remove_beneficial_traits = no
+	}
+	species_possible_merge_remove = {
+		always = no
+	}
+	species_possible_add = {
+		always = no
+	}
+	potential_crossbreeding_chance = 0.1
+	initial = no
+	randomized = no
+	advanced_trait = yes
+	allowed_archetypes = { BIOLOGICAL }
+	valid_for_all_ethics = yes
+	#allowed_ethics = { ethic_gestalt_consciousness }
+	#prerequisites = { tech_xxx }
+	#opposites = { "trait_hive_protector" }
+	#prerequisites = {
+    #    has_civic = civic_twisted_angels
+    #}
+	#custom_tooltip = TRAIT_EFFECT_LOC
+
+
+	modifier = {	
+		army_health = 0.1
+		planet_jobs_society_research_produces_mult = 0.05
+	}
+	icon = "gfx/interface/icons/traits/trait_zombie.dds"
+	slave_cost = {
+		energy = 2000
+	}
+}

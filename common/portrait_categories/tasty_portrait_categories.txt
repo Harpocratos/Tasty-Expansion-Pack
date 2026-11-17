@@ -1,0 +1,65 @@
+metamorphics = {
+	name = "Metamorphic"
+
+	sets = {
+		metamorphics
+	}
+}
+
+bioweapons = {
+	name = "Bioweapon"
+
+	sets = {
+		bioweapons
+	}
+}
+
+prospectors = {
+	name = "Prospectors"
+
+	sets = {
+		prospectors
+	}
+}
+
+heavenerror = {
+	name = "Heaven's Error"
+
+	sets = {
+		heavenerror
+	}
+}
+
+flood = {
+	name = "Violet Flood"
+
+	sets = {
+		flood
+	}
+}
+
+plorbs = {
+	name = "Plorb"
+
+	sets = {
+		plorbs
+	}
+}
+
+
+uhohbios = {
+	name = "Uhoh (Biological)"
+
+	sets = {
+		uhohbios
+	}
+}
+
+
+uhohmachines = {
+	name = "Uhoh (Machine)"
+
+	sets = {
+		uhohmachines
+	}
+}

@@ -1,0 +1,131 @@
+# Violet Flood Civic Decisions
+
+# Decision to consume a nano world for resources
+decision_vf_consume_nano_world = {
+	owned_planets_only = yes
+	icon = "decision_burning_settlement" # Vanilla icon
+	sound = "event_structural_collapse"  # Vanilla sound
+
+	enactment_time = 100 # days
+	resources = {
+		category = decisions
+		cost = {
+			energy = 1000
+		}
+	}
+
+	potential = {
+		exists = owner
+		owner = { has_civic = civic_violet_flood }
+		OR = {
+			is_planet_class = pc_nanomass
+			is_planet_class = pc_nanoplasma
+		}
+		is_capital = no # Cannot consume capital
+	}
+
+	allow = {
+		# No additional conditions beyond 'potential' and resource costs for players.
+		# AI checks will be in ai_weight.
+	}
+
+	effect = {
+		custom_tooltip = "decision_vf_consume_nano_world_effect_desc" # Reference to localization
+		owner = {
+			add_resource = { sr_living_metal = 1000 }
+		}
+		hidden_effect = {
+			create_message = {
+				type = MESSAGE_PLANET_CONSUMED_BY_NANO_TITLE # Custom message type for unique icon/sound if desired
+				localization = "MESSAGE_PLANET_CONSUMED_BY_NANO_DESC"
+				target = owner # Message to the empire
+				variable = {
+					type = name
+					localization = PLANET
+					scope = root # Root is the planet in planet decisions
+				}
+			}
+		}
+		remove_planet = yes # This should be the last effect
+	}
+
+	ai_weight = {
+		weight = 5 # Base weight for AI to consider this
+		modifier = {
+			factor = 0 # Don't do it if...
+			owner = { sr_living_metal > 2000 } # AI already has a lot of Living Metal
+		}
+		modifier = {
+			factor = 0 # Don't do it if...
+			num_pops > 5 # Planet has more than 5 pops (to avoid destroying somewhat developed colonies)
+		}
+		modifier = {
+			factor = 2 # More likely if...
+			owner = { resource_income = { resource = sr_living_metal value < 1 } } # AI has low/no Living Metal income
+		}
+	}
+}
+
+# Decision to expand a nano world
+decision_vf_expand_nano_world = {
+	owned_planets_only = yes
+	icon = "decision_mastery_of_nature" # Vanilla icon
+
+	enactment_time = 100 # days
+	resources = {
+		category = decisions
+		cost = {
+			sr_living_metal = 1000
+		}
+	}
+
+	potential = {
+		exists = owner
+		owner = { has_civic = civic_violet_flood }
+		OR = {
+			is_planet_class = pc_nanomass
+			is_planet_class = pc_nanoplasma
+		}
+		# This decision disappears if the planet has already been expanded 10 times
+		OR = {
+			NOT = { has_variable = vf_nano_expansion_count } # If variable not set, count is 0
+			check_variable = { which = vf_nano_expansion_count value < 10 }
+		}
+	}
+
+	allow = {
+		# No specific allow conditions beyond what 'resources' and 'potential' cover.
+		# The game will show resource costs automatically if the player can't afford them.
+		# The count limit is handled in 'potential'.
+	}
+
+	effect = {
+		custom_tooltip = "decision_vf_expand_nano_world_effect_desc" # Reference to localization
+		change_planet_size = 3
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_variable = vf_nano_expansion_count } }
+				set_variable = { which = vf_nano_expansion_count value = 1 }
+			}
+			else = {
+				change_variable = { which = vf_nano_expansion_count value = 1 }
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 0 # Base weight for AI
+		#modifier = {
+		#	factor = 0 # Don't do it if...
+		#	owner = { sr_living_metal < 1500 } # AI has insufficient Living Metal reserves
+		#}
+		#modifier = {
+		#	factor = 2 # More likely if...
+		#	free_district_slots < 2 # Planet is running out of space
+		#}
+		#modifier = {
+		#	factor = 1.5 # Prioritize...
+		#	is_capital = yes # Expanding the capital
+		#}
+	}
+}

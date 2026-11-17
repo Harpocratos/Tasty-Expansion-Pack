@@ -1,0 +1,649 @@
+terraform_link = {
+    from = "pc_nanomass"
+    to = "pc_nanoplasma"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 10000
+        }
+        upkeep = {
+			energy = 200
+		}
+    }
+
+    duration = 1000
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_nanoplasma"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 10000
+        }
+    }
+
+    duration = 1000
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+# Cut link for now until I find a way to recreate districts?
+terraform_link = {
+    from = "pc_nanomass"
+    to = "pc_continental"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 10000
+            food = 5000
+        }
+    }
+
+    duration = 1500
+
+
+	condition = {
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_ai"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 2500
+            sr_living_metal = 50
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_desert"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 8000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_treasure"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 8000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_tropical"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_arid"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_continental"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_ocean"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_tundra"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_arctic"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_alpine"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_savannah"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_gas_giant"
+    to = "pc_nanoplasma"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_asteroid"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_molten"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_barren"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_barren_cold"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_toxic"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_frozen"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+terraform_link = {
+    from = "pc_nuked"
+    to = "pc_nanomass"
+
+    resources = {
+        category = terraforming
+
+        cost = {
+            energy = 5000
+            sr_living_metal = 60
+        }
+    }
+
+    duration = 1500
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_nano_worlds
+	}
+
+    condition = {
+        has_ascension_perk = ap_nano_worlds
+    }
+
+    ai_weight = {
+        weight = 0.0001
+    }
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+        
+        
+

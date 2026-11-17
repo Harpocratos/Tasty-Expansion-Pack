@@ -1,0 +1,209 @@
+
+
+
+
+origin_reawakened_judgement_maxtrix = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_necrophage.dds"
+	picture = GFX_reawakened_judement_matrix
+	flags = { custom_start_screen }
+
+    starting_colony = pc_nuked
+	advanced_start = no
+
+	playable = {
+		host_has_dlc = "Synthetic Dawn Story Pack"
+	}
+
+	possible = {
+		authority = { value = auth_machine_intelligence }
+		civics = {
+			value = civic_twisted_angels 
+			NOR = {
+				value = civic_machine_servitor
+				value = civic_machine_catalytic_processing
+			}
+		}
+	}
+
+	description = origin_reawakened_judgement_maxtrix_lore
+    #negative_description = "origin_tooltip_machine_negative_effects"
+
+	modifier = {
+		spy_network_daily_value_mult = 0.1
+		ship_orbital_bombardment_mult = 0.25
+	}
+
+	traits = {
+		trait = trait_sin_dynamo
+		trait = trait_holy_algorithms
+	}
+
+	random_weight = {
+		base = 2
+	}
+}
+
+
+origin_escaped_bioweapons = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_escaped_bioweapons.dds"
+	picture = GFX_origins_escaped_bioweapons
+	flags = { custom_start_screen }
+
+	advanced_start = no
+
+	possible = {
+		NOT = { # Exclude the following
+			authority = { value = auth_machine_intelligence } # Exclude machine intelligence
+			ethics = { # Exclude ethics
+				value = ethic_fanatic_spiritualist
+				value = ethic_fanatic_authoritarian
+				value = ethic_fanatic_xenophobe
+			}
+		}
+
+		civics = {
+			NOR = {
+				# No slavers
+				value = civic_dystopian_society
+				value = civic_fanatic_purifiers
+				value = civic_pompous_purists
+				value = civic_slaver_guilds
+				value = civic_indentured_assets
+				# Or low tech starts
+				value = civic_privatized_exploration
+				# Or advanced tech
+				value = civic_private_healthcare_corporate
+			}
+		}
+	}
+
+
+	description = origin_escaped_bioweapons_lore
+    #negative_description = "origin_tooltip_machine_negative_effects"
+
+	modifier = {
+		damage_vs_superior_empires_mult = 0.2
+		planet_stability_add = -10
+		pop_environment_tolerance = 0.5
+		modify_species_cost_mult = 1
+		BIOLOGICAL_species_trait_points_add = 3
+		BIOLOGICAL_species_trait_picks_add = 1
+
+	}
+
+	traits = {
+		trait = trait_bioweapon_ancestry
+	}
+
+	random_weight = {
+		base = 2
+	}
+}
+
+
+origin_nanorobotic_dispersion = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_nano_plague.dds"
+	picture = GFX_origins_nano_plague
+	flags = { custom_start_screen }
+
+    starting_colony = pc_nanomass
+	advanced_start = no
+
+	playable = {
+		host_has_dlc = "Synthetic Dawn Story Pack"
+	}
+
+	possible = {
+		authority = { value = auth_machine_intelligence }
+		civics = {
+			value = civic_violet_flood 
+			NOR = {
+				value = civic_twisted_angels
+				value = civic_machine_catalytic_processing
+			}
+		}
+	}
+
+	description = origin_nanorobotic_dispersion_lore
+    #negative_description = "origin_tooltip_machine_negative_effects"
+
+	modifier = {
+		pc_nanomass_habitability = 1.00 
+		pc_nanoplasma_habitability = 1.00 
+		ship_speed_mult = -0.1
+		ship_weapon_damage = -0.05
+		shipclass_starbase_damage_mult = 0.2
+		shipclass_starbase_hull_mult = 0.2
+		planet_orbital_bombardment_damage = -0.15
+		empire_size_pops_mult = -0.05
+		category_materials_research_speed_mult = 0.1
+	}
+
+	traits = {
+		# None
+	}
+
+	random_weight = {
+		base = 0.1
+	}
+}
+
+
+origin_treasure_planet = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_nano_plague.dds"
+	picture = GFX_origin_treasure_planet
+	flags = { custom_start_screen }
+
+    starting_colony = pc_treasure
+	advanced_start = no
+
+	playable = {
+		host_has_dlc = "Synthetic Dawn Story Pack"
+	}
+
+	possible = {
+		ethics = {
+			NOT = { value = ethic_gestalt_consciousness }
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+		}
+		civics = { value = civic_treasure_hoarders }
+	}
+
+	description = origin_treasure_planet_lore
+    #negative_description = "origin_tooltip_machine_negative_effects"
+
+	modifier = {
+		country_trade_attractiveness = 0.2
+		country_trust_growth = 0.1
+		trade_value_mult = 0.1
+		ship_piracy_suppression_add = 2
+		ship_archaeological_site_excavation_speed_mult = 0.25
+		
+	}
+
+	traits = {
+		# None
+	}
+
+	random_weight = {
+		base = 0.1
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,119 @@
+
+
+METAMORPH = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	playable = { always = yes }
+	randomized = yes
+
+	generate_shipset = no
+	graphical_culture = uhoh_culture 
+	move_pop_sound_effect = "moving_pop_confirmation" 
+	resources = {}
+}
+
+BIOWEAP = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	playable = { always = yes }
+	randomized = yes
+
+	generate_shipset = no
+	graphical_culture = uhoh_culture 
+	move_pop_sound_effect = "moving_pop_confirmation" 
+}
+
+
+
+HEAVENERROR = { 
+	archetype = MACHINE
+	playable = { host_has_dlc = "Synthetic Dawn Story Pack" }
+	possible = { authority = { OR = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE } } }
+	possible_secondary = { always = no text = SECONDARY_SPECIES_CLASS_INVALID }
+	use_climate_preference = no
+	randomized = yes 
+
+	generate_shipset = no
+	graphical_culture = uhoh_culture 
+	move_pop_sound_effect = "moving_pop_confirmation" 
+}
+
+
+FLOOD = { 
+	archetype = MACHINE
+	playable = { host_has_dlc = "Synthetic Dawn Story Pack" }
+	possible = { authority = { OR = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE } } }
+	possible_secondary = { always = no text = SECONDARY_SPECIES_CLASS_INVALID }
+	use_climate_preference = no
+	randomized = yes 
+
+	generate_shipset = no
+	graphical_culture = uhoh_culture 
+	move_pop_sound_effect = "moving_pop_confirmation" 
+}
+
+PROSP = {
+	archetype = BIOLOGICAL
+	playable = { always = yes }
+	randomized = yes
+
+	generate_shipset = no
+	graphical_culture = uhoh_culture 
+	move_pop_sound_effect = "moving_pop_confirmation" 
+}
+
+
+PLORB = {
+	archetype = BIOLOGICAL
+	playable = { always = yes }
+	randomized = yes
+
+	generate_shipset = no
+	graphical_culture = uhoh_culture 
+	move_pop_sound_effect = "moving_pop_confirmation" 
+}
+
+
+UHOHBIO = {
+	archetype = BIOLOGICAL
+	playable = { always = yes }
+	randomized = no
+
+	generate_shipset = no
+	graphical_culture = uhoh_culture 
+	move_pop_sound_effect = "moving_pop_confirmation" 
+}
+
+UHOHMACHINE = {
+	archetype = MACHINE
+	playable = { always = yes }
+	randomized = no
+
+	generate_shipset = no
+	graphical_culture = uhoh_culture 
+	move_pop_sound_effect = "moving_pop_confirmation" 
+}
+
+
+########################
+#	Extended Fungoid - BROKEN SINCE MACHINE AGE PATCH - WAITING FOR PARADOX DEV TO ADD OVERRIDE FUNCTIONALITY
+########################
+
+#FUN = {
+#	archetype = BIOLOGICAL
+#
+#	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+#
+#	graphical_culture = humanoid_01
+#	move_pop_sound_effect = "fungoid_pops_move"
+#
+#	resources = {}
+#}
+
+
+
+
+
+
+
+

@@ -1,0 +1,650 @@
+###################################
+# Violet Flood Districts
+###################################
+
+
+district_nanomass = {
+	base_buildtime = 480
+	is_capped_by_modifier = no
+
+
+	zone_slots = {
+		slot_tasty_nucleo
+	}
+
+	show_on_uncolonized = {
+        OR = {
+			uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+	}
+
+
+	potential = {
+		
+		exists = owner
+		owner = { has_valid_civic = civic_violet_flood }
+		OR = {
+			uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+        
+	}
+
+
+	#allow = {
+	#	NOT = { has_modifier = resort_colony }
+	#}
+
+	#conversion_ratio = 1
+	#convert_to = {
+	#	district_city
+	#	district_arcology_housing
+	#	district_rw_city
+	#	district_nexus
+	#	district_hive
+	#}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 600
+            alloys = 200
+		}
+		upkeep = {
+            alloys = 2
+			energy = 2
+		}
+
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_civic = civic_violet_flood
+            }
+        }
+        modifier = {
+            planet_housing_add = 200 # Provides 2 housing
+            job_nucleosynthesis_pool_add = 200 # Provides 2 jobs
+        }
+	}
+}
+
+district_planetary_magma_extraction = {
+	base_buildtime = 280
+	is_capped_by_modifier = no
+
+	zone_slots = {
+		slot_tasty_thermal
+	}
+
+	show_on_uncolonized = {
+        uses_district_set = nanomass_world
+	}
+
+
+	potential = {
+        uses_district_set = nanomass_world
+        exists = owner
+		owner = { has_valid_civic = civic_violet_flood }
+	}
+
+
+	#allow = {
+	#	NOT = { has_modifier = resort_colony }
+	#}
+
+	#conversion_ratio = 1
+	#convert_to = {
+	#	district_nanomass
+	#}	
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 500
+            alloys = 100
+		}
+		upkeep = {
+			energy = 2
+		}
+
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_civic = civic_violet_flood
+            }
+        }
+        modifier = {
+            planet_housing_add = 300 # Provides 3 housing
+            job_thermal_artery_add = 300 # Provides 3 jobs
+        }
+	}
+}
+
+district_tempest_synthesizer = {
+	base_buildtime = 480
+	is_capped_by_modifier = no
+
+	# Assuming this needs a zone slot too, let's call it slot_tasty_tempest for now
+    # This will need to be defined in tasty_zone_slots.txt and tasty_zones.txt
+	zone_slots = {
+		slot_tasty_tempest_field # Placeholder - define this slot and its zone
+	}
+
+	show_on_uncolonized = {
+        OR = {
+			#uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+	}
+
+
+	potential = {
+		OR = {
+			#uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+        exists = owner
+		owner = { has_valid_civic = civic_violet_flood }
+	}
+
+
+	#allow = {
+	#	NOT = { has_modifier = resort_colony }
+	#}
+
+	#conversion_ratio = 1
+	#convert_to = {
+	#	district_nanomass
+	#}	
+
+	resources = {
+		category = planet_districts
+		cost = {
+			energy = 400
+            alloys = 300
+		}
+		upkeep = {
+			energy = 2
+		}
+
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_civic = civic_violet_flood
+            }
+        }
+        modifier = {
+            planet_housing_add = 200 # Provides 2 housing
+            job_magneto_tempest_field_add = 200 # Provides 2 jobs
+        }
+	}
+}
+
+district_cytoskeleton = {
+	base_buildtime = 480
+	is_capped_by_modifier = no
+
+	zone_slots = {
+		slot_tasty_cyto
+		slot_tasty_cyto
+		slot_tasty_cyto
+	}
+
+	show_on_uncolonized = {
+        OR = {
+			uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+	}
+
+
+	potential = {
+		OR = {
+			uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+        exists = owner
+		owner = { has_valid_civic = civic_violet_flood }
+	}
+
+
+	#allow = {
+	#	NOT = { has_modifier = resort_colony }
+	#}
+
+	#conversion_ratio = 1
+	#convert_to = {
+	#	district_nanomass
+	#}	
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 500
+            alloys = 300
+		}
+		upkeep = {
+			energy = 2
+		}
+
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_civic = civic_violet_flood
+            }
+        }
+        modifier = {
+            planet_housing_add = 800
+            job_laminar_inductor_add = 400
+			job_patrol_drone_add = 50
+        }
+	}
+}
+
+district_biophage_lysosomes = {
+	base_buildtime = 480
+	is_capped_by_modifier = no
+
+	zone_slots = {
+		slot_tasty_phage
+	}
+
+	show_on_uncolonized = {
+        OR = {
+			uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+	}
+
+
+	potential = {
+		OR = {
+			uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+        exists = owner
+		owner = { has_valid_civic = civic_violet_flood }
+	}
+
+
+	#allow = {
+	#	NOT = { has_modifier = resort_colony }
+	#}
+
+	#conversion_ratio = 1
+	#convert_to = {
+	#	district_nanomass
+	#}	
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 500
+            alloys = 300
+		}
+		upkeep = {
+			energy = 2
+		}
+
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_civic = civic_violet_flood
+            }
+        }
+        modifier = {
+            planet_housing_add = 200 # Provides 2 housing
+            job_biomolecular_dissolver_pool_add = 200 # Provides 2 jobs
+        }
+	}
+}
+
+district_organic_construction_reticuli = {
+	base_buildtime = 480
+	is_capped_by_modifier = no
+
+	zone_slots = { # Assuming this uses phage or a new slot type for organic construction
+		slot_tasty_phage
+		#slot_tasty_organic_constr # Placeholder
+	}
+
+	show_on_uncolonized = {
+        OR = {
+			uses_district_set = nanomass_world
+			#uses_district_set = nanoplasma_world
+		}
+	}
+
+
+	potential = {
+		OR = {
+			uses_district_set = nanomass_world
+			#uses_district_set = nanoplasma_world
+		}
+        exists = owner
+		owner = { has_valid_civic = civic_violet_flood }
+	}
+
+
+	#allow = {
+	#	NOT = { has_modifier = resort_colony }
+	#}
+
+	#conversion_ratio = 1
+	#convert_to = {
+	#	district_nanomass
+	#}	
+
+	resources = {
+		category = planet_districts
+		cost = {
+			minerals = 500
+            alloys = 300
+		}
+		upkeep = {
+			minerals = 1
+			energy = 2
+		}
+
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_civic = civic_violet_flood
+            }
+        }
+        modifier = {
+            planet_housing_add = 200 # Provides 2 housing
+            job_organic_constructor_add = 200 # Provides 2 jobs
+        }
+	}
+}
+
+district_element_membrane = {
+	base_buildtime = 480
+	is_capped_by_modifier = no
+
+	zone_slots = { # Assuming a new slot type for elemental diffusion
+		slot_tasty_element_diff # Placeholder - define this slot and its zone
+	}
+
+	show_on_uncolonized = {
+        OR = {
+			#uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+	}
+
+
+	potential = {
+		OR = {
+			#uses_district_set = nanomass_world
+			uses_district_set = nanoplasma_world
+		}
+        exists = owner
+		owner = { has_valid_civic = civic_violet_flood }
+	}
+
+
+	#allow = {
+	#	NOT = { has_modifier = resort_colony }
+	#}
+
+	#conversion_ratio = 1
+	#convert_to = {
+	#	district_nanomass
+	#}	
+
+	resources = {
+		category = planet_districts
+		cost = {
+			energy = 1000
+            alloys = 300
+			exotic_gases = 30
+			volatile_motes = 30
+			rare_crystals = 30
+		}
+		upkeep = {
+			energy = 2
+		}
+
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_civic = civic_violet_flood
+            }
+        }
+        modifier = {
+            planet_housing_add = 200 # Provides 2 housing
+            job_element_diffusion_membrane_add = 200 # Provides 2 jobs
+        }
+	}
+}
+
+
+###################################
+# Treasure Hoarders Districts
+###################################
+
+district_treasure_horde = {
+	base_buildtime = 320
+	is_capped_by_modifier = no
+
+	zone_slots = {
+		slot_tasty_treasure_hoard # New zone slot to be defined
+	}
+
+	show_on_uncolonized = {
+		uses_district_set = treasure_world
+	}
+
+	potential = {
+		uses_district_set = treasure_world
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			energy = 200
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 300 # Provides 3 housing
+		trade_value_mult = 0.05
+		job_treasure_keepers_add = 200 # Provides 3 jobs
+	}
+}
+
+district_distribution_center = {
+	base_buildtime = 320
+	is_capped_by_modifier = no
+
+	zone_slots = {
+		slot_tasty_treasure_distribution # New zone slot to be defined
+	}
+
+	show_on_uncolonized = {
+		uses_district_set = treasure_world
+	}
+
+	potential = {
+		uses_district_set = treasure_world
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			energy = 200
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 400 # Provides 4 housing
+		trade_value_mult = 0.01
+		job_goods_distributor_add = 200 # Provides 3 jobs
+	}
+}
+
+district_artificers = {
+	base_buildtime = 320
+	is_capped_by_modifier = no
+
+	zone_slots = {
+		slot_tasty_treasure_artifice # New zone slot to be defined
+	}
+
+	show_on_uncolonized = {
+		uses_district_set = treasure_world
+	}
+
+	potential = {
+		uses_district_set = treasure_world
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			energy = 600
+			minerals = 100
+			alloys = 50
+		}
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_housing_add = 200 # Provides 2 housing
+		trade_value_mult = 0.02
+		job_artifact_curators_add = 200 # Provides 2 jobs
+	}
+}
+
+district_treasure_dive_site = {
+	base_buildtime = 320
+	is_capped_by_modifier = no
+
+	zone_slots = {
+		slot_tasty_treasure_diving # New zone slot to be defined
+	}
+
+	show_on_uncolonized = {
+        OR = {
+			uses_district_set = treasure_world
+		}
+	}
+
+	potential = {
+		OR = {
+			uses_district_set = treasure_world
+		}
+		# Everyone can build
+        #exists = owner
+		#owner = { has_valid_civic = civic_treasure_hoarders }
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			energy = 800
+			rare_crystals = 10
+			alloys = 100
+		}
+		upkeep = {
+			energy = 2
+		}
+
+	}
+
+	planet_modifier = {
+		planet_housing_add = 200
+		job_treasure_divers_add = 200
+	}
+}
+
+district_vaults = {
+	base_buildtime = 320
+	is_capped_by_modifier = no
+
+	zone_slots = {
+		slot_tasty_treasure_vault
+		slot_tasty_treasure_vault
+		slot_tasty_treasure_vault
+	}
+
+	show_on_uncolonized = {
+        OR = {
+			uses_district_set = treasure_world
+		}
+	}
+
+	potential = {
+		OR = {
+			uses_district_set = treasure_world
+		}
+		# Everyone can build
+        #exists = owner
+		#owner = { has_valid_civic = civic_treasure_hoarders }
+	}
+
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = 50
+			energy = 400
+			minerals = 500
+		}
+		upkeep = {
+			energy = 2
+		}
+
+	}
+
+	planet_modifier = {
+		planet_housing_add = 400
+		planet_amenities_add = 400
+	}
+
+	triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            # owner = { # Everyone can use
+            #	has_civic = civic_treasure_hoarders
+            # }
+        }
+        modifier = {
+            planet_housing_add = 600
+			trade_value_mult = 0.02
+            job_vault_guardians_add = 200
+			planet_amenities_add = 500
+        }
+	}
+}

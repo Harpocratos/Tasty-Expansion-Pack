@@ -1,0 +1,160 @@
+example_set = {
+	species_class = EXAMPLE
+
+	portraits = {
+		"example"
+	}
+}
+
+
+metamorphics = {
+	species_class = METAMORPH
+
+	portraits = {
+		"meta1"
+	}
+
+	conditional_portraits = {
+		portraits = {
+		}
+	}
+}
+
+bioweapons = {
+	species_class = BIOWEAP
+
+	portraits = {
+		"bioweap1"
+	}
+
+	conditional_portraits = {
+		portraits = {
+		}
+	}
+}
+
+
+heavenerror = {
+	species_class = HEAVENERROR
+
+	portraits = {
+		"heaven1"
+	}
+
+	conditional_portraits = {
+		portraits = {
+		}
+	}
+}
+
+flood = {
+	species_class = FLOOD
+
+	portraits = {
+		"flood1"
+		"flood2"
+		"flood3"
+	}
+
+	conditional_portraits = {
+		portraits = {
+		}
+	}
+}
+
+prospectors = {
+	species_class = PROSP
+
+	portraits = {
+		"prosp1"
+		"prosp2"
+		"prosp3"
+		#"prosp4"
+		"prosp5"
+		"prosp6"
+		"prosp7"
+		"prosp8"
+		"prosp9"
+	}
+
+	conditional_portraits = {
+		portraits = {
+		}
+	}
+}
+
+plorbs = {
+	species_class = PLORB
+
+	portraits = {
+		"plorb0"
+		"plorb1"
+		"plorb2"
+
+	}
+
+	conditional_portraits = {
+		portraits = {
+		}
+	}
+}
+
+
+uhohbios = {
+	species_class = UHOHBIO
+
+	portraits = {
+		"uhoh1"
+		"uhoh2"
+		"uhoh3"
+		"uhoh4"
+		"uhoh5"
+		"uhoh6"
+		"uhoh7"
+		"uhoh8"
+		"uhoh9"
+		"uhoh10"
+		"uhoh11"
+		"uhoh12"
+		"uhoh13"
+		"uhoh14"
+		"uhoh15"
+		
+
+
+	}
+
+	conditional_portraits = {
+		portraits = {
+		}
+	}
+}
+
+uhohmachines = {
+	species_class = UHOHMACHINE
+
+	portraits = {
+		"uhoh1"
+		"uhoh2"
+		"uhoh3"
+		"uhoh4"
+		"uhoh5"
+		"uhoh6"
+		"uhoh7"
+		"uhoh8"
+		"uhoh9"
+		"uhoh10"
+		"uhoh11"
+		"uhoh12"
+		"uhoh13"
+		"uhoh14"
+		"uhoh15"
+		
+
+	}
+
+	conditional_portraits = {
+		portraits = {
+		}
+	}
+}
