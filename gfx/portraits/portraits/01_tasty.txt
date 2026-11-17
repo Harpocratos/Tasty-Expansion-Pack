@@ -1,0 +1,747 @@
+
+character = {
+    size = { x = 475 y = 380 }
+
+    entity = {
+        orientation = center_down
+        position = { x = 50 y = -20 }
+        scale = 24
+    }
+    #2d Portrait position
+    icon = {
+        orientation = center_down
+        position = { x = 0 y = 0 }
+        scale = 1.0
+    }
+}
+
+
+# Processing
+portraits = {
+	meta1 = { texturefile = "gfx/models/portraits/metamorphic/Opal_Hive_Portrait_01.dds" }
+	#example_green = { texturefile = "gfx/models/portraits/example/example_green.dds" }
+	#example_blue = { texturefile = "gfx/models/portraits/example/example_blue.dds" }
+
+    bioweap1 = { texturefile = "gfx/models/portraits/bioweapons/Promethian_00.dds" }
+
+    uhoh1 = {   texturefile = "gfx/models/portraits/uhohs/Wario_Portrait_01.dds" }
+    uhoh2 = {   texturefile = "gfx/models/portraits/uhohs/Jojamo_Jujo_00.dds" }
+    uhoh3 = {   texturefile = "gfx/models/portraits/uhohs/Meglomond_00.dds" }
+    uhoh4 = {   texturefile = "gfx/models/portraits/uhohs/Renald_Wickwonald_00.dds" }
+    uhoh5 = {   texturefile = "gfx/models/portraits/uhohs/Peter_00.dds" }
+    uhoh6 = {   texturefile = "gfx/models/portraits/uhohs/Neko_00.dds" 
+                greeting_sound = "neko_00_greetings"
+    }
+    uhoh7 = {   texturefile = "gfx/models/portraits/uhohs/Jimmy_00.dds" 
+                greeting_sound = "neutron_00_greetings"
+    }
+    uhoh8 = {   texturefile = "gfx/models/portraits/uhohs/Devil_May_Peter_00.dds" }
+    uhoh9 = {   texturefile = "gfx/models/portraits/uhohs/Mission_Control_00.dds" }
+    uhoh10 = {   texturefile = "gfx/models/portraits/uhohs/Sbeve_Jobbes_00.dds" }
+    uhoh11 = {   	texturefile = "gfx/models/portraits/uhohs/Meglomond_02.dds"
+					greeting_sound = "megamind_00_greetings" }
+    uhoh12 = {   texturefile = "gfx/models/portraits/uhohs/Monke_00.dds" }
+    uhoh13 = {   texturefile = "gfx/models/portraits/uhohs/Quetzal_00.dds" }
+    uhoh14 = {   texturefile = "gfx/models/portraits/uhohs/Galactic_Fox_00.dds" }
+    uhoh15 = {   texturefile = "gfx/models/portraits/uhohs/Galactic_Snake_00.dds" }
+    uhoh16 = {   texturefile = "gfx/models/portraits/uhohs/Bryson_00.dds" }
+
+    plorb0 = {   texturefile = "gfx/models/portraits/plorb/Plorb_00.dds" }
+    plorb1 = {   texturefile = "gfx/models/portraits/plorb/Plorb_01.dds" }
+    plorb2 = {   texturefile = "gfx/models/portraits/plorb/Plorb_02.dds" }
+
+    heaven1 = {   texturefile = "gfx/models/portraits/heavenerror/Judicator_01.dds" }
+
+
+    flood1 = {   texturefile = "gfx/models/portraits/flood/Flood_00.dds" }
+    flood2 = {   texturefile = "gfx/models/portraits/flood/Flood_01.dds" }
+    flood3 = {   texturefile = "gfx/models/portraits/flood/Flood_02.dds" }
+
+
+    prosp1 = {   texturefile = "gfx/models/portraits/prospectors/Corpolizard_00.dds" }
+    prosp2 = {   texturefile = "gfx/models/portraits/prospectors/Corpolizard_01.dds" }
+    prosp3 = {   texturefile = "gfx/models/portraits/prospectors/Corpolizard_02.dds" }
+    prosp4 = {   texturefile = "gfx/models/portraits/prospectors/Dwarf_00.dds" }
+    prosp5 = {   texturefile = "gfx/models/portraits/prospectors/Dwarf_01.dds" }
+    prosp6 = {   texturefile = "gfx/models/portraits/prospectors/Dwarf_02.dds" }
+    prosp7 = {   texturefile = "gfx/models/portraits/prospectors/Kobold_00.dds" }
+    prosp8 = {   texturefile = "gfx/models/portraits/prospectors/Kobold_01.dds" }
+    prosp9 = {   texturefile = "gfx/models/portraits/prospectors/Kobold_02.dds" }
+
+}
+
+portrait_groups = {
+	meta1 = {
+		default = meta1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					meta1
+					# more
+					
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					meta1
+					# more
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					meta1
+					# more
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					meta1
+					# more
+				}
+			}
+		}
+
+		#ruler scope
+		ruler = {
+			add = {
+				portraits = {
+					meta1
+					# more
+				}
+			}
+		}
+	}
+}
+
+portrait_groups = {
+	bioweap1 = {
+		default = bioweap1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					bioweap1
+					# more
+					
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					bioweap1
+					# more
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					bioweap1
+					# more
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					bioweap1
+					# more
+				}
+			}
+		}
+
+		#ruler scope
+		ruler = {
+			add = {
+				portraits = {
+					bioweap1
+					# more
+				}
+			}
+		}
+	}
+}
+
+
+portrait_groups = {
+	uhohbios = {
+		default = uhoh1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+					
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+				}
+			}
+		}
+
+		#ruler scope
+		ruler = {
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+				}
+			}
+		}
+	}
+}
+
+portrait_groups = {
+	uhohmachines = {
+		default = uhoh1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+					
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+				}
+			}
+		}
+
+		#ruler scope
+		ruler = {
+			add = {
+				portraits = {
+					uhoh1
+                    uhoh2
+                    uhoh3
+                    uhoh4
+                    uhoh5
+                    uhoh6
+                    uhoh7
+                    uhoh8
+                    uhoh9
+                    uhoh10
+					uhoh11
+                    uhoh12
+                    uhoh13
+                    uhoh14
+                    uhoh15
+                    uhoh16
+
+
+					# more
+				}
+			}
+		}
+	}
+}
+
+portrait_groups = {
+	heavenerror = {
+		default = heaven1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					heaven1
+                    # more
+					
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					heaven1
+					# more
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					heaven1
+					# more
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					heaven1
+					# more
+				}
+			}
+		}
+
+		#ruler scope
+		ruler = {
+			add = {
+				portraits = {
+					heaven1
+					# more
+				}
+			}
+		}
+	}
+}
+
+portrait_groups = {
+	flood = {
+		default = flood1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					flood1
+                    flood2
+                    flood3
+                    # more
+					
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					flood1
+                    flood2
+                    flood3
+					# more
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					flood1
+                    flood2
+                    flood3
+					# more
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					flood1
+                    flood2
+                    flood3
+					# more
+				}
+			}
+		}
+
+		#ruler scope
+		ruler = {
+			add = {
+				portraits = {
+					flood1
+                    flood2
+                    flood3
+					# more
+				}
+			}
+		}
+	}
+}
+
+portrait_groups = {
+	prospectors = {
+		default = prosp1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					prosp1
+                    prosp2
+                    prosp3
+                    #prosp4
+					prosp5
+                    prosp6
+                    prosp7
+                    prosp8
+                    prosp9
+                    # more
+					
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					prosp1
+                    prosp2
+                    prosp3
+                    #prosp4
+					prosp5
+                    prosp6
+                    prosp7
+                    prosp8
+                    prosp9
+					# more
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					prosp1
+                    prosp2
+                    prosp3
+                    #prosp4
+					prosp5
+                    prosp6
+                    prosp7
+                    prosp8
+                    prosp9
+					# more
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					prosp1
+                    prosp2
+                    prosp3
+                    #prosp4
+					prosp5
+                    prosp6
+                    prosp7
+                    prosp8
+                    prosp9
+					# more
+				}
+			}
+		}
+
+		#ruler scope
+		ruler = {
+			add = {
+				portraits = {
+					prosp1
+                    prosp2
+                    prosp3
+                    #prosp4
+					prosp5
+                    prosp6
+                    prosp7
+                    prosp8
+                    prosp9
+					# more
+				}
+			}
+		}
+	}
+}
+
+portrait_groups = {
+	plorbs = {
+		default = plorb0
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					plorb0
+					plorb1
+					plorb2
+
+                    # more
+					
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					plorb0
+					plorb1
+					plorb2
+
+					# more
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					plorb0
+					plorb1
+					plorb2
+
+					# more
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					plorb0
+					plorb1
+					plorb2
+
+					# more
+				}
+			}
+		}
+
+		#ruler scope
+		ruler = {
+			add = {
+				portraits = {
+					plorb0
+					plorb1
+					plorb2
+
+					# more
+				}
+			}
+		}
+	}
+}
