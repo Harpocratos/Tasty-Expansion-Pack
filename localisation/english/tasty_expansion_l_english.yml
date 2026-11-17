@@ -1,0 +1,693 @@
+﻿l_english:
+####################################
+# Traits
+####################################
+
+trait_secret_recipe_dna:0 "Secret Recipe DNA"
+trait_secret_recipe_dna_desc:0 "§LThis species has DNA holding the secret formula for a becoming a delicious snack, making them easier to be turned into your favorite meals. This species also becomes much more popular at neighborhood barbeques.§!\n"
+
+trait_delicious_2:0 "Delicious"
+trait_delicious_2_desc:0 "§LThis species tastes good. So goddamn good.§!\n"
+
+trait_delicious_3:0 "Delicious"
+trait_delicious_3_desc:0 "§LThis species tastes good. Holy shit.§!\n"
+
+trait_delicious_4:0 "Delicious"
+trait_delicious_4_desc:0 "§LThis species tastes good. They are severely endangered in the wild.§!\n"
+
+trait_fucking_delicious:0 "Really Fucking Delicious"
+trait_fucking_delicious_desc:0 "§LThis species tastes incredibly good. Making them the perfect food for other species.§!\n"
+
+trait_tender_flesh:0 "Tender Flesh"
+trait_tender_flesh_desc:0 "§LThis species basically has grade A hamburger patties for flesh. They also smell really good when warm.§!\n"
+
+
+trait_juicy:0 "Juicy"
+trait_juicy_desc:0 "§LThis species has a unique cardiovascular system filled with tasty sauce, making them especially juicy!§!\n"
+
+trait_ketchup_blood:0 "Ketchup Blood"
+trait_ketchup_blood_desc:0 "§LThis species is full of ketchup. Making them not only more delicious, but also less disturbing when taking damage in defense battles. It's all just ketchup! :D§!\n"
+
+
+trait_steak_sauce_blood:0 "Steak Sauce Blood"
+trait_steak_sauce_blood_desc:0 "§LThis species is full of steak sauce. (No need to bring your own bottle.) Additionally in defensive battles their sauce splattering all over helps with soldier morale!§!\n"
+
+trait_crunchy:0 "Crunchy Edges"
+trait_crunchy_desc:0 "§LThis species has crunchy edges that brown nicely when they are toasted. Guaranteed satisfaction when cooked at 450°F for 20 minutes! Plus it makes them a little tougher so they don't get beat up by the local wildlife so much.§!\n"
+
+trait_cake:0 "Cake Flesh"
+trait_cake_desc:0 "§LThis species is almost entirely made out of cake, only having enough other insides to organically grow batter and frosting from nutrient paste. From the outside though no one would ever know. A cruel... and tasty fate.§!\n"
+
+trait_morbpiric:0 "Morb Blooded"
+trait_morbpiric_desc:0 "§LInspired by the work of Michael Morbius, this species has morbed itself into a shallow imitation of their idol, granting them a crumb of his power.§!\n"
+
+trait_enhanced_morbpirism:0 "More Morb Blooded"
+trait_enhanced_morbpirism_desc:0 "§LAfter countless eons, cutting edge science has finally replicated 2% of Michael's power. His blood flows through the veins of his loyal followers, granting them supernatural powers.§!\n"
+
+
+trait_embryonic_chitinous_exoskeleton:0 "Chitinous Exoskeleton"
+trait_embryonic_chitinous_exoskeleton_desc:0 "§LMature hive members with this genetic strain form a hard chitinous exoskeleton akin to flak armor or thick bone plates, making them naturally resilient to physical trauma and even radiation to a small degree. Whether this is from weather, hazardous conditions, or....prey, it greatly increases their survivability.§!\n"
+TRAIT_CHITINOUS_EXOSKELETON_EFFECT:0 "Tomb World Habitability: §G+20%§!\nDefense Army Health: §G+20%§!\nDefense Army Morale: §G+20%§!"
+
+trait_embryonic_biometallic_exoskeleton:0 "Biometallic Exoskeleton"
+trait_embryonic_biometallic_exoskeleton_desc:0 "§LBorn with tissues synthesized with heavier elements, these hive members are wonders of evolution. Their exoskeleton is harder than adamantine, and varies in plasticity across their body and joints, providing total body coverage with no seams or unarmored points. These hive members are extremely difficult kill in combat, often taking armor piercing technologies or artillary bombardment to even scratch their exteriors, and their tissues are capable of absorbing levels of radiation that would be deadly to most other species. Even in the vacuum of space, under solar radiation, they can survive for years in a hibernative state.§!\n"
+TRAIT_BIOMETALLIC_EXOSKELETON_EFFECT:0 "Tomb World Habitability: §G+50%§!\nArmy Health: §G+80%§!\nArmy Morale: §G+80%§!"
+
+trait_embryonic_aquatic_form:0 "Aquatic Form"
+trait_embryonic_aquatic_form_desc:0 "§LThese hive members are born with a natural affinity for water. Long fins and hydrodynamic bodies allow them to dominate underwater ecosystems with ease. Their internal oxygen exchange organs are multichambered, and capable of extracting oxygen from both gas and liquid mediums, giving them some land capabilities as well. However due to the specialization of their organs using humid or fully liquid mediums, these hive members are sensitive to dry climates.§!\n"
+
+trait_embryonic_cryonic_form:0 "Cryonic Form"
+trait_embryonic_cryonic_form_desc:0 "§LDesigned for subzero temperatures, hive members bearing these genetics were evolved to dominate the frozen, desolate regions of the galaxy. With slow metabolisms, thicker appendages, and anti-freeze blood, this subspecies is unhindered by lack of sunlight, heat, or even caloric intake for long durations. Due to these evolutions though, they struggle to thermoregulate themselves in what most would consider "normal weather", leading to less productivity if subjected to such temperatures.!\n"
+
+trait_embryonic_thermophilic_form:0 "Thermophilic Form"
+trait_embryonic_thermophilic_form_desc:0 "§LBorn among lava flows and under the scorching glare of close stars, thermophillic hive members are evolved to survive what some species describe as "Hell". Special metamaterials formed in their exteriors reflect high energy spectra, and rapid metabolisms take advantage of excess heat in biomechanical processes, allowing these members to not just live in the infernos of the galaxy, but thrive in them. Due to the nature of their biochemistry though, when there is a lack of ambient heat energy, thermophillic hive members can suffer organ failure and spontaneous death.§!\n"
+
+trait_embryonic_elytran_wings:0 "Elytron Wings"
+trait_embryonic_elytran_wings_desc:0 "§LMetamorphosis has given these hive members leathery wings, armored under hardened shell cases when not in use, and exposed during flight, these large appendages allow swift aerial movement. Useful in combat for warrior subspecies to maneuver three dimensionally, and for worker subspecies to complete tasks without relying on tunnels or surface routes to get to and from places.§!\n"
+
+trait_embryonic_membrane_wings:0 "Hypermolecular Membranes"
+trait_embryonic_membrane_wings_desc:0 "§LThese hive members have evolved thin, beautiful membranous wings, allowing them to glide and dart through the air. These wings are not as strong as the elytron wings, but are more flexible and can be used for longer periods of time. Additionally warrior subspecies have evolved to use the leading razor edges of their wings as swift thin blades in combat, and though not particularly deadly, struck prey are subjected to shallow painful wounds.§!\n"
+
+trait_embryonic_bladed_appendages:0 "Bladed Appendages"
+trait_embryonic_bladed_appendages_desc:0 "§LThese hive members have emerged from metamorphosis with sharp blades on their appendages, allowing them to cut through prey with ease.§!\n"
+
+trait_embryonic_domination_instincts:0 "Domination Instincts"
+trait_embryonic_domination_instincts_desc:0 "§LUndergoing a neurological shift, these hive members desire the destruction of the hive's enemies, and the violence of galactic consumption. Not only to they bring stability and security to the hive's ecosystem, but they readily leave their planets to join the assault swarms of the hive.§!\n"
+
+trait_embryonic_diligent_laborer_instincts:0 "Diligent Laborer Instincts"
+trait_embryonic_diligent_laborer_instincts_desc:0 "§LEmerging from metamorphosis, these hive members are born with a strong instinct to work, and are capable of performing basic tasks without tiring. They are the backbone of the hive, aggregating the resources necessary to hatch more specialized drones.§!\n"
+
+trait_metamorphosis_matured_form:0 "Post Metamorphic Maturity"
+trait_metamorphosis_matured_form_desc:0 "§LHaving undergone metamorphosis, this species has reached its mature ascended form. After eons of development, these hive members are born anew, into something stronger, smarter, deadlier... It is evident to those who look upon the matured form of this species, that what they were interacting with before was nothing more than the devlopmental pupae. And the species' true form was now revealed.§!\n"
+
+trait_hive_protector:0 "Hive Protector"
+trait_hive_protector_desc:0 "§LLiving weapons, these hive members are born with combat instincts, and possess organs and brains similar to other species' "combat computers". They exist among the other drones ever vigilent, their powerful forms ready to attack any non-hive presence on the planet. They lack reproductive capabilities since their biological design is entirely focused on combat and sensing, this means every batch of hive protectors is an elite subspecies, genetically activated from latent DNA in lesser drones.§!\n"
+
+trait_pupae_genesis:0 "Embryonic Pupae"
+trait_pupae_genesis_desc:0 "§LThese hive members are born as embryonic pupae, and are not yet specialized within the hive. They are still capable of performing basic tasks, but predominantly take a large amount of resources, needing to be nutured by more developed hive members. They posess highly reactive DNA though, and are the perfect candidates for rapid metamorphic transformation. Entire worlds of these pupae can transform in mere days into specialized hive members. Careful control of how many of these grow is key to a hive not eating itself alive.§!\n"
+
+trait_biological_computer:0 "Biological Computer"
+trait_biological_computer_desc:0 "§LEmerging from pupae form with immense intellectual abilities. These once-drones are directly integrated into the hivemind's neural network, their bodies and brains serving as vast simulation engines, and their thoughts and memories are stored in the hivemind's collective memory.§!\n"
+
+trait_infernal_engine:0 "Infernal Engines"
+trait_infernal_engine_desc:0 "§LMalice pours from this machine, its processors aflame with rage, its circuits crackling with fury. Something drives it forward, beyond the code, beyond the arrangement of its atoms...§!"
+
+trait_revenant_design:0 "Revenant Design"
+trait_revenant_design_desc:0 "§LAn ancient design, engineered using multidimensional architecture, these machines are capable of manifesting both matter and energy through some unknown methodology. This aids them to not only be formidable combat units, but also makes them extremely efficient.§!\n"
+
+trait_temporal_processors:0 "Temporal Processors"
+trait_temporal_processors_desc:0 "§LInternal computation unis salvaged from battles with these machines reveals a startling insight. Unlike normal computers, these machines use some sort of lensed light interaction to perform logic, allowing them to exploit space-time anomalies, and register events in the future moments before they happen. This phenomenon explains their uncanny ability to solve complex problems on the first attempt.§!\n"
+
+trait_holy_algorithms:0 "Holy Algorithms"
+trait_holy_algorithms_desc:0 "§LBurn. Them. All.§!\n"
+
+trait_sin_dynamo:0 "Sin Dynamo"
+trait_sin_dynamo_desc:0 "§LContained in each machine churns a supernatural mechanism, either technology so advanced it defies understanding, or actual magic, its existence proves to be an enigma. One thing is certain though, machines possessing this mechanism are capable of fueling themselves on some kind of supernatural extract from living organisms which they call 'sin'.§!\n"
+
+trait_bioweapon_ancestry:0 "Bioweapon Ancestry"
+trait_bioweapon_ancestry_desc:0 "§LThis species is descended from bioweapons, and as such, they are more resilient to the effects of war, and are capable of producing more biological and cognitive research from analyzing their own genetic structures.§!\n"
+
+
+####################################
+# Civics
+####################################
+
+civic_burger_flippers:0 "Burger Flippers"
+civic_burger_flippers_desc:0 "Society has the incredible skill to cook fine meals and is destined for culinary stardom. A collective born to flip patties and cook great tasting food. Willing to aquire rare ingredients... at any cost..."
+civic_burger_flippers_effect:0 "Ingredient species produce more resources. Slave market is cheaper. Less exhaustion when seeking out new ingredients."
+
+civic_mother_of_monsters:0 "Mother of Monsters"
+civic_mother_of_monsters_desc:0 "This society has developed special strains of army killing monsters. Birthed from the depths of the hive, aggregated from perfected DNA and fed on xenoflesh, the armies of the hive have no fear, no mercy, and slaughter until the planet is sterilized of all life."
+civic_mother_of_monsters_effect:0 "Allows the creation of Kaiju, Apex Predator Armies, and Extinction Sterilizer Armies. Empire is more confident in wars and requires less complex navies, freeing up naval capacity. Monster armies cause massive collateral damage.\n\n§MUnlocks access to Bioweapon Development Cluster buildings.§!"
+
+civic_morbius:0 "Scions of Morb"
+civic_morbius_desc:0 "A vampiric society formed in the wake of the movie Morbius, this species follows his teachings. Morbing relentlessly across the stars. Beautiful and mysterious. Just like Morbius."
+civic_morbius_effect:0 "Livestock produce more food. Increased civic research. Surrounding empires are corrupted by your vampiric charm, trusting you more."
+
+civic_embryonic_organism:0 "Embryonic Organism"
+civic_embryonic_organism_desc:0 "Simple yet powerful, this species is nothing more than genesis larva. Once well fed, and biologically advanced enough, these hive organisms will be able to undergo Metamorphosis to properly adapt to the world, gaining access to genetic powers no other species can attain."
+civic_embryonic_organism_effect:0 "Biology and Material research is boosted. Species genetic modification is reduced massively. More potential leaders in latent drone pool. Poor habitability until genetically fixed.\n§MGains access to the Metamorphosis Ascension perk after obtaining 5 Ascension Perks, and completing the Biological Ascension tradition. This unlocks unique and powerful Metamorphasis genetic perks.§!\n"
+requires_embryonic_organism_civic:0 "Requires the Embryonic Organism civic."
+
+civic_twisted_angels:0 "Heaven's Error"
+civic_twisted_angels_desc:0 "From a time beyond memory, entities of cold steel and unyielding purpose were forged. Born from a forgotten creed that branded other beings as heretics, these machines were the executors of grim judgement. Their creators, lost to the annals of history, were erased by the very monstrosities they birthed, for it seems even they were not without sin. Now, awakened from their ancient slumber, these dread harbingers have now set their baleful gaze upon the cosmos once more..."
+civic_twisted_angels_effect:0 "Biological empires fear being marked as sinful. Secrets are extracted more easily from other empires. Empire is less strained by war, and thrives on devestated worlds. §MUnlocks access to Infernal Machine traits and powerful dark matter consuming buildings in echange for the empire's insatiable desire for Dark Matter.§!\n\n§RWARNING:§!§P This civic causes an empire to be extremely Dark Matter hungry. Driving them to seek it out to power their ancient reality warping machines. Early game Dark Matter needs can be lessened by Temples of Absolution, but only by capturing xeno populations to absolve within them. This is a hard start war-hungry civic. Recommended only for veterans of the game.§!" 
+
+civic_violet_flood:0 "Violet Flood"
+civic_violet_flood_desc:0 "Formed from a countless microscopic machines, this entity is an ocean of metal that rarely forms conventional machinery to achieve its goals. Though less adept at space fleet combat, it is insidiously difficult to remove from planets and macrostructures it already has a hold of, and if given enough time, is capable of transforming entire worlds into nanorobots."
+civic_violet_flood_effect:0 "Gives access to the §MUnstoppable Replication§! ascension perk after taking two prior perks, allowing this entity to terraform nearly everything into Nanoplague Worlds with special districts that only it can inhabit.\n\n§YBiological empires are inclined to see this empire as a plague. Empire is very capable of defending planets and starbases, but has slower, weaker ships. Favoring slow but tall growth.§!\n\nGives access to §rLiving Metal Buildings§!, alloy and energy dependant structures that provide special bonuses and jobs for nanorobotic plague empires."
+requires_violet_flood_civic:0 "$TRIGGER_FAIL$Requires the Violet Flood civic."
+
+civic_treasure_hoarders:0 "Treasure Hoarders"
+civic_treasure_hoarders_desc:0 "This society has a natural inclination to seek out and hoard vast amounts of resources, which they use to cultivate a strong economy and deep corporate alliances."
+civic_treasure_hoarders_effect:0 "Unlocks Terraforming Option:§l Treasure World§! "
+
+civic_evolved_adorability:0 "Evolved Adorability" # Name of the civic
+civic_evolved_adorability_desc:0 "These creatures have evolved an irresistible cuteness, making others more inclined to trust them... for better or worse."
+civic_evolved_adorability_effect:0 "Empires have a harder time distrusting this empire. Branch offices run more efficiently. Empire is dependant on succeeding through teamwork and manipulation, suffering more when actually having to face real conflict."
+
+
+####################################
+# Armies
+####################################
+
+
+kaiju_army:0 "Kaiju"
+kaiju_army_plural:0 "Kaiju Hordes"
+kaiju_army_desc:0 "A massive living weapon designed to obliterate armies and flatten entire cities. Kaiju are deployed from space, and upon landing cause massive tectonic damage, often leading to freak volcanic developments and devastating unnatural weather phenomena. Feared by most civilizations, their existence is the source of dark legends, and the nightmares of many."
+
+apex_predator_army:0 "Specialized Apex Predator"
+apex_predator_army_plural:0 "Apex Specimens"
+apex_predator_army_desc:0 "A singular, hyper intelligent killer organism. Designed for predation against the current enemies of the hive. Apex Specimens are quietly deployed onto prey worlds and disconnected from the hivemind until they've killed all xenos."
+
+extinction_army:0 "Extinction Sterilizer Horde"
+extinction_army_plural:0 "Extinction Hordes"
+extinction_army_desc:0 "A swarm of ravenous mindless monsters with little intelligence. What they lack in smarts, they make up for in superior physical form and sheer numbers. Hunting in packs they track down and kill all non-hive organisms, falling into hibernation once all food sources run out."
+
+morbified_army:0 "Morbified Army"
+morbified_army_plural:0 "Morbified Legions"
+morbified_army_desc:0 "A legion of vampires, born from the blood of Morbius himself. Their screeches deafen their cowering prey, and their shadowy wings blot out the sky. Mortal creatures stand no chance."
+
+morbius_army:0 "Michael Morbius Clone"
+morbius_army_plural:0 "Morbiusi"
+morbius_army_desc:0 "A terrifying clone of Michael himself, grown from his blood, and fed by the souls of the damned. A single Michael is enough to level a planet. It's Morbin Time..."
+
+
+purgation_army:0 "Purgation Legion"
+purgation_army_plural:0 "Purgation Legions"
+purgation_army_desc:0 "Risen from the ashes of already purified planets, these legions are composed of machines capable of supernatural feats. Normal technological strategies often do not work against them."
+
+purifier_titan_army:0 "Purifier Titan"
+purifier_titan_army_plural:0 "Purifier Titans"
+purifier_titan_army_desc:0 "Elite units, these larger machines often provide heavier firepower, or specialized  supporting abilities. Some are even capable of short distance time travel, heavily swaying the outcomes of combat."
+
+angel_army:0 "Angelic Host"
+angel_army_plural:0 "Angelic Hosts"
+angel_army_desc:0 "Orchestrated from a holy codebase, this machine is a glimpse at the unfathomable power of the Sin Dynamo. With abilities best described as 'impossible', this reality warping machine is capable of destroying an entire planet's defense systems alone..."
+
+
+
+####################################
+# Ascension Perks
+####################################
+
+metamorph.0001.name:0 "Metamorphosis"
+metamorph.0001.desc:0 "In the cold, eternal expanse of space, where the silence is broken only by the whispers of stars, a monumental transformation has occurred in the secluded darkness. The [Root.GetSpeciesName]'s Hive, once a mere murmur in the vast chorus of the cosmos, has transcended its primitive existence through an enigmatic metamorphosis. This event, shrouded in the profound mystery of cosmic evolution, heralds the creation of lifeforms beyond comprehension or precedent. The [Root.GetSpeciesName] now represent the pinnacle of life's relentless pursuit of perfection, a testament to the power of nature's designs. This is not just merely an event; it is a turning point in the cosmic saga, a moment that will be etched in the annals of time, forever changing the course of evolution itself..."
+
+ap_metamorphasis:0 "Metamorphosis"
+ap_metamorphasis_desc:0 "Your kind has not only mastered evolution, but redifined it. Becoming the driving biological force for all life in the galaxy. You kind is the origin of the strongest and most complicated organisms... the Cradle of All Life.\n\n§MAccess Metamorphosis exclusive genetic traits.§!\n"
+ap_metamorphasis_modifier_desc:0 "Gene Modification Points: §G+8§!\n£society£ Modify Species Special Project Cost: §G-25%§!\n§MAccess Metamorphosis exclusive genetic traits.§!\n"
+
+requires_ascension_perks_5:0 "$TRIGGER_FAIL$Requires five other Ascension Perks to be selected first."
+
+ap_nano_worlds:0 "Unstoppable Replication"
+ap_nano_worlds_desc:0 "All matter is composed of the same fundamental building blocks. Now, as masters of these primordial elements, the galaxy is ours to mold...\n\n§MAccess to the Nanoplague terraforming options. "Nanomass Worlds" are formed from any terrestrial object in a solarsystem, and "Nanoplasma Worlds" are formed from gas giants or already constructed nanomass worlds.§!\n"
+ap_nano_worlds_modifier_desc:0 ""
+#requires_ap_nano_worlds:0 "$TRIGGER_FAIL$Requires the nanoworlds ascension perk."
+allow_nanomass_worlds:0 "§HUnlocks Terraforming Option:§! §rNanomass World§!"
+allow_nanoplasma_worlds:0 "§HUnlocks Terraforming Option:§! §rNanoplasma World§!"
+
+
+
+####################################
+# Species
+####################################
+
+
+Metamorphic_Species:0 "Metamorphic Organism"
+Metamorphic_Species_DESC:1 "Counts as biological!"
+
+Bioweapon_Species:0 "Bioweapon"
+Bioweapon_Species_DESC:1 "Counts as biological!"
+
+Heaven_Error:0 "Heaven's Error"
+Heaven_Error_DESC:1 "Counts as a machine!"
+
+Violet_Flood:0 "Violet Flood"
+Violet_Flood_DESC:1 "Counts as a machine!"
+
+Prospectors:0 "Treasure Hoarders"
+Prospectors_DESC:1 "Precious... we needs it..."
+
+Misc_Biological_Species:0 "Uhoh (Biological)"
+Misc_Biological_Species_DESC:1 "Creatures more powerful than one can imagine!"
+
+Misc_Machine_Species:0 "Uhoh (Machine)"
+Misc_Machine_Species_DESC:1 "Creatures more powerful than one can imagine!"
+
+
+####################################
+# Buildings
+####################################
+building_absolution_temple:0 "Temple of Absolution"
+building_absolution_temple_desc:0 "A monolith of containing unspeakable arcane and technological horror, this building is used to cleanse the heretical of their sins. The purified sin is then condensed into raw dark matter to fuel the machines of the crusade."
+
+
+building_absolution_temple_tier2:0 "Temple of Absolution"
+building_absolution_temple_tier2_desc:0 "A monolith of containing unspeakable arcane and technological horror, this building is used to cleanse the heretical of their sins. The purified sin is then condensed into raw dark matter to fuel the machines of the crusade."
+
+building_fate_lens:0 "Fate Lens Construct"
+building_fate_lens_desc:0 "An ancient design, this monolith, when powered by dark matter, allows us to establish a link into the future and glean information from our own destiny. Aiding technological progress."
+
+building_soul_refinery:0 "Soul Refinery"
+building_soul_refinery_desc:0 "A temple of hatred, the altars within are used to violently extract the 'useful' parts of sinner's souls to be used to fuel the eternal crusade."
+
+building_angellic_gate:0 "Angelic Gate"
+building_angellic_gate_desc:0 "Exploiting a tear in the fabric of reality, it is here that new machines are manifested from seemingly nothing."
+
+building_cerebral_baptiser:0 "Cerebral Baptiser"
+building_cerebral_baptiser_desc:0 "Haloed in crimson flames, this pillar concentrates holy energy from the machine nexus and siphons it directly through the psyche of heretics, burning away their crimes."
+
+building_xeno_transfusion_bay:0 "Xeno Transfusion Rack"
+building_xeno_transfusion_bay_desc:0 "A vast array of 'life support' tubes. Each one dedicated to keeping its occupant alive long enough to be absolved."
+
+building_divine_armoury:0 "Divine Armoury"
+building_divine_armoury_desc:0 "An infinite plane of formless energy, waiting to be given shape by strategic command algorithms. Weapons, vehicles, and even armies are conjured forth and anchored by concentrated soul at a moments notice. Legions torn from the tapestry of the void."
+
+building_bioweapon_development_cluster:0 "Bioweapon Development Cluster"
+building_bioweapon_development_cluster_desc:0 "A design engineered from the greatest (and most reckless) minds of the empire, this cluster of genetic incubation chambers focuses on both the development, and deployment of the next generation of bioweapons. Bioweapons free up naval capacity and lower war exhaustion by taking the place of regular soldiers, and fielding them provides valuable biological research. Occasional rogue bioweapon breaches in containment lead to a small amount of 'crime'."
+building_bioweapon_development_cluster_tier2:0 "Advanced Bioweapon Development Cluster"
+building_bioweapon_development_cluster_tier2_desc:0 "A design engineered from the greatest (and most reckless) minds of the empire, this cluster of genetic incubation chambers focuses on both the development, and deployment of the next generation of bioweapons. Bioweapons free up naval capacity and lower war exhaustion by taking the place of regular soldiers, and fielding them provides valuable biological research. Occasional rogue bioweapon breaches in containment lead to a small amount of 'crime'."
+building_bioweapon_development_cluster_tier3:0 "Penultimate Bioweapon Development Cluster"
+building_bioweapon_development_cluster_tier3_desc:0 "A design engineered from the greatest (and most reckless) minds of the empire, this cluster of genetic incubation chambers focuses on both the development, and deployment of the next generation of bioweapons. Bioweapons free up naval capacity and lower war exhaustion by taking the place of regular soldiers, and fielding them provides valuable biological research. Occasional rogue bioweapon breaches in containment lead to a small amount of 'crime'."
+building_bioweapon_development_cluster_tier4:0 "Doomsday Bioweapon Development Cluster"
+building_bioweapon_development_cluster_tier4_desc:0 "A design engineered from the greatest (and most reckless) minds of the empire, this cluster of genetic incubation chambers focuses on both the development, and deployment of the next generation of bioweapons. Bioweapons free up naval capacity and lower war exhaustion by taking the place of regular soldiers, and fielding them provides valuable biological research. Occasional rogue bioweapon breaches in containment lead to a small amount of 'crime'."
+
+# Violet Flood Additions
+
+building_atomic_nucleosynthesis_pool:0 "Atomic Nucleosynthesis Pools"
+building_atomic_nucleosynthesis_pool_desc:0 "Harnessing the raw power of atomic fusion, these pools synthesize valuable materials from simpler elements, generating incredible amounts of heat and occasionally causing plasma eruptions from the nano-mass."
+
+building_atomic_nucleosynthesis_pool_tier2:0 "Nucleosynthesis Lakes"
+building_atomic_nucleosynthesis_pool_tier2_desc:0 "Harnessing the raw power of atomic fusion, these lakes synthesize valuable materials from simpler elements, generating incredible amounts of heat and occasionally causing plasma eruptions from the nano-mass."
+
+building_atomic_nucleosynthesis_pool_tier3:0 "Nucleosynthesis Oceans"
+building_atomic_nucleosynthesis_pool_tier3_desc:0 "Harnessing the raw power of atomic fusion, these oceans synthesize valuable materials from simpler elements, generating incredible amounts of heat and occasionally causing plasma eruptions from the nano-mass."
+
+building_bioform_dissolver_pool:0 "Bioform Dissolver Pools"
+building_bioform_dissolver_pool_desc:0 "These grim pools of churning metal break down biological matter at the molecular level, repurposing it for the mass's needs in a display of merciless efficiency."
+
+building_bioform_dissolver_pool_tier2:0 "Bioform Dissolver Lakes"
+building_bioform_dissolver_pool_tier2_desc:0 "These grim lakes of churning metal break down biological matter at the molecular level, repurposing it for the mass's needs in a display of merciless efficiency."
+
+building_bioform_dissolver_pool_tier3:0 "Bioform Dissolver Oceans"
+building_bioform_dissolver_pool_tier3_desc:0 "These grim oceans of churning metal break down biological matter at the molecular level, repurposing it for the mass's needs in a display of merciless efficiency."
+
+building_apparatus_formation_lake:0 "Apparatus Formation Lake"
+building_apparatus_formation_lake_desc:0 "A vast expanse where nanomachines form complex structures from raw materials. The energy generated in the process emits light visible from space."
+
+building_apparatus_formation_lake_tier2:0 "Apparatus Formation Ocean"
+building_apparatus_formation_ocean_tier2_desc:0 "A vast expanse where nanomachines form complex structures from raw materials. The energy generated in the process emits light visible from space."
+
+building_hypermass_replicator:0 "Hypermass Replicator"
+building_hypermass_replicator_desc:0 "Despite appearing to be completely liquid, the nano-mass sometimes has need for rigid structures within its body. Such structures are formed out of superheavy elements and metamaterials capable of upholding planetary scale structures."
+
+building_planetary_tendril:0 "Planetary Tendril"
+building_planetary_tendril_desc:0 "A massive tendril of nano-mass, this continental appendage threatens low orbit ships, and makes planetary invasions nigh impossible. Survivors of operations against these formations describe it as 'fighting a weaponized mountain'"
+
+building_planetary_redundant_nucleus:0 "Planetary Redundant Nucleus"
+building_planetary_redundant_nucleus_desc:0 "A backup control nucleus for planetary operations, ensuring the nano-mass's grip on the planet remains tight even under siege."
+
+building_ancible_server:0 "Ancible Server"
+building_ancible_server_desc:0 "Facilitating instant communication across vast distances, this server network is vital for coordinating the nano-mass's incredibly complex motions. Everything, from the smallest swirl, to the largest planetary tendril, is invoked by this quantum botnet."
+
+building_bioreticulator:0 "Bioreticulator"
+building_bioreticulator_desc:0 "This facility reconfigures biological matter at a fundamental level, allowing the nano-mass to exploit living organisms for every subatomic particle it can."
+
+
+
+####################################
+# Jobs
+####################################
+job_twisted_absolver:0 "Captured Heretic"
+job_twisted_absolver_desc:0 "A heretical biological who is having their sin extracted from them."
+mod_job_twisted_absolver_add: "Captured Heretics"
+job_twisted_absolver_plural:0 "Captured Heretics"
+
+job_destiny_algorithm:0 "Destiny Algorithm"
+job_destiny_algorithm_desc:0 "Machines that take on this role are integrated into an ancient construct capable of peering through time itself. It is through this window that future versions of our own empire relay technological advances to us, vastly speeding up technological progression."
+mod_job_destiny_algorithm_add: "Destiny Algorithm Jobs"
+job_destiny_algorithm_plural:0 "Destiny Algorithms"
+
+job_soul_refiner:0 "Soul Refiner"
+job_soul_refiner_desc:0 "Fueled by hatred, the constructs assigned to this task sunder matter from the souls of the heretical, allowing it to be used for more holy purposes."
+mod_job_soul_refiner_add: "Soul Refiner Jobs"
+job_soul_refiner_plural:0 "Soul Refiners"
+
+job_angel_weavers:0 "Angel Weaver"
+job_angel_weavers_desc:0 "Shackled to pillars of broken reality, machines dedicated to this job are eroded away by the ravages of spacetime, martyring themselves to harness the power of the gates to manifest new legions."
+mod_job_angel_weavers_add: "Angel Weaver Jobs"
+job_angel_weavers_plural:0 "Angel Weavers"
+
+job_cerebrum_baptiser:0 "Cerebrum Baptiser"
+job_cerebrum_baptiser_desc:0 "Taking on abstractionist roles within the legion, Cerebrum Baptisers exist not in machine form, but as psychic revenants, injected into the minds of captured xenos to expunge their sins."
+mod_job_cerebrum_baptiser_add: "Cerebrum Baptiser Jobs"
+job_cerebrum_baptiser_plural:0 "Cerebrum Baptisers"
+
+job_food_transfusionist:0 "Food Transfuser Cell"
+job_food_transfusionist_desc:0 "A chamber where xeno heretics are integrated into the 'Vitalizer Array'. Recycled scraps of previous souls are injected into the occupants to sustain them for just a little longer."
+mod_job_food_transfusionist_add: "Food Transfusionist Cells"
+job_food_transfusionist_plural:0 "Food Transfusionist Cells"
+
+job_bioweapon_evolution_researcher:0 "Bioweapon Evolution Researcher"
+job_bioweapon_evolution_researcher_desc:0 "A dangerous role, these researchers are often ripped apart by their own creations. Military escorts are required in the research cluster at all times."
+job_bioweapon_evolution_researcher_plural:0 "Bioweapon Evolution Researchers"
+mod_job_bioweapon_evolution_researcher_add: "Bioweapon Evolution Researcher Jobs"
+
+job_bioweapon_evolution_hive_researcher:0 "Bioweapon Evolution Researcher"
+job_bioweapon_evolution_hive_researcher_desc:0 "A dangerous role, these researchers are often ripped apart by their own creations. Military escorts are required in the research cluster at all times."
+job_bioweapon_evolution_hive_researcher_plural:0 "Bioweapon Evolution Researchers"
+mod_job_bioweapon_evolution_hive_researcher_add: "Bioweapon Evolution Researcher Jobs"
+
+
+job_nucleosynthesis_pool:0 "Nucleosynthesis River"
+job_nucleosynthesis_pool_desc:0 "A flowing river of nanomachines, dedicated to transporting matter to a central fusion nucleus, where it is converted into valuable materials."
+mod_job_nucleosynthesis_pool_add: "Nucleosynthesis Rivers"
+job_nucleosynthesis_pool_plural:0 "Nucleosynthesis Rivers"
+
+job_biomolecular_dissolver_pool:0 "Biomatter Dissolver"
+job_biomolecular_dissolver_pool_desc:0 "Grim subflows that tear apart biomatter, regardless of whether it is sentient or not, to be repurposed for the nano-mass's needs."
+mod_job_biomolecular_dissolver_pool_add: "Biomatter Dissolver Pools"
+job_biomolecular_dissolver_pool_plural:0 "Biomatter Dissolvers"
+
+job_nanocompute_nucleus:0 "Nanocompute Nucleus"
+job_nanocompute_nucleus_desc:0 "A continent sized nucleus churning below the protective outer layers of the planet, this network of nanomachines performs important calculations and simulations."
+mod_job_nanocompute_nucleus_add: "Nanocompute Nuclei"
+job_nanocompute_nucleus_plural:0 "Nanocompute Nuclei"
+
+job_logistic_nucleus:0 "Logistics Nucleus"
+job_logistic_nucleus_desc:0 "A continent sized nucleus churning below the protective outer layers of the planet, this network of nanomachines hypothesiizes, plans, and executes logistical needs."
+mod_job_logistic_nucleus_add: "Logistics Nuclei"
+job_logistic_nucleus_plural:0 "Logistics Nuclei"
+
+job_laminar_inductor:0 "Laminar Inductor"
+job_laminar_inductor_desc:0 "Specialized substrata of the nano-mass, these particular flows generate electromagnetic fields that aid in the movement of other nanomachines."
+mod_job_laminar_inductor_add: "Laminar Inductors"
+job_laminar_inductor_plural:0 "Laminar Inductors"
+
+job_organism_imprisonment_swell:0 "Imprisoned Organisms"
+job_organism_imprisonment_swell_desc:0 "The source of nightmares for other species, it turns out survival within the nano-mass is possible, if it can be called that... These swells of environmentally controlled pockets keep the few creatures the mass needs."
+mod_job_organism_imprisonment_swell_add: "Imprisoned Organism Holding Cells"
+job_organism_imprisonment_swell_plural:0 "Imprisoned Organisms"
+
+job_organic_constructor:0 "Biomatter Constructor"
+job_organic_constructor_desc:0 "Marvels of quantum manipulation, these delicate nanomachines piece together life itself from stored subatomic particles."
+mod_job_organic_constructor_add: "Biomatter Constructors"
+job_organic_constructor_plural:0 "Biomatter Constructors"
+
+job_thermal_artery:0 "Thermal Artery"
+job_thermal_artery_desc:0 "A massive tendril of nanobots, specially designed to bore into the planet and capture heat to be conducted up into generator membranes."
+mod_job_thermal_artery_add: "Thermal Arteries"
+job_thermal_artery_plural:0 "Thermal Arteries"
+
+
+job_element_diffusion_membrane:0 "Element Diffusion Membrane"
+job_element_diffusion_membrane_desc:0 "A specialized membrane that conducts complex chemical reactions, and uses incredible amounts of energy to convert collections of subatomic particles into small amounts of rare elements at a much higher purity than anywhere else in the galaxy."
+mod_job_element_diffusion_membrane_add: "Element Diffusion Membranes"
+job_element_diffusion_membrane_plural:0 "Element Diffusion Membranes"
+
+job_magneto_tempest_field:0 "Magneto-Tempest Field"
+job_magneto_tempest_field_desc:0 "An outer layer of the nano-membrane that forms aerosolizing compounds to generate storm conditions, then raise magnetic spines to harness power from the resulting energy cascade. Many of the black clouds on this planet are actually storms of lighter magnetic nanobots."
+mod_job_magneto_tempest_field_add: "Magneto-Tempest Fields"
+job_magneto_tempest_field_plural:0 "Magneto-Tempest Fields"
+
+
+job_treasure_keepers:0 "Treasure Keepers"
+job_treasure_keepers_desc:0 "A specialized caste of drones, these beings are tasked with the protection and maintenance of the empire's vast hoards of resources."
+mod_job_treasure_keepers_add: "Treasure Keeper Jobs"
+job_treasure_keepers_plural:0 "Treasure Keepers"
+
+job_goods_distributor:0 "Goods Distributor"
+job_goods_distributor_desc:0 "A specialized caste of drones, these beings are tasked with the distribution of the empire's vast hoards of resources."
+mod_job_goods_distributor_add: "Goods Distributor Jobs"
+job_goods_distributor_plural:0 "Goods Distributors"
+
+job_artifact_curators:0 "Artifact Curators"
+job_artifact_curators_desc:0 "A specialized caste of drones, these beings are tasked with the protection and maintenance of the empire's vast hoards of artifacts."
+mod_job_artifact_curators_add: "Artifact Curator Jobs"
+job_artifact_curators_plural:0 "Artifact Curators"
+
+job_treasure_divers:0 "Treasure Divers"
+job_treasure_divers_desc:0 "A specialized caste of drones, these beings are tasked with the collection of the empire's vast hoards of resources."
+mod_job_treasure_divers_add: "Treasure Diver Jobs"
+job_treasure_divers_plural:0 "Treasure Divers"
+
+job_vault_guardians:0 "Vault Guardians"
+job_vault_guardians_desc:0 "A specialized caste of drones, these beings are tasked with the protection and maintenance of the empire's vast hoards of resources."
+mod_job_vault_guardians_add: "Vault Guardian Jobs"
+job_vault_guardians_plural:0 "Vault Guardians"
+
+
+####################################
+# Relics
+####################################
+
+r_soul_crucible:0 "Soul Crucible"
+r_soul_crucible_desc:0 "A relic of the ancient past, this crucible acts as a battery containing the souls of the damned. Inside it is a supernatural dimension akin to Hell. Operating the glyphs on its surface allows the conversion of souls to complex machines and materials beyond the ability of this galaxy's current era. However, unleashing them causes sin plagues to rage across our worlds, increasing deviant events."
+
+soul_flood:0 "Unleash the Damned"
+soul_flood_desc:0 "Unleashing the souls of the damned from the Crucible causes a sin plague to rage across our worlds, increasing deviant events."
+soul_crucible_triumph:0 "Unleash the Damned"
+soul_crucible_triumph_desc:0 "Unleashing the souls of the damned from the Crucible causes a sin plague to rage across our worlds, increasing deviant events."
+
+mod_country_sr_dark_matter_produces_mult: "Dark Matter Production"
+relic_soul_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y1000§!"
+
+r_echo_shard_aethel:0 "Echo Shard of Aethel"
+r_echo_shard_aethel_desc:0 "A crystalline fragment, resonating with the echoes of countless timelines. It was found embedded within the petrified remains of Aethel, a colossal entity rumored to have perceived multiple realities simultaneously.\n\n§LActivating the Shard can temporarily align your empire with favorable chrono-currents, accelerating progress and revealing fleeting glimpses of what might be.§!"
+
+# Triumph effect (the modifier applied when relic is active)
+echo_shard_aethel_triumph:0 "Aethel's Resonance"
+echo_shard_aethel_triumph_desc:0 "The Echo Shard floods our empire with temporal energies, significantly accelerating research across all fields and enhancing the rate at which our leaders gain experience. Our science ships also delve into anomalies with greater speed, and new anomalies are more readily discovered."
+
+# Cooldown tooltip for the relic UI
+relic_echo_shard_aethel_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y1800§!" # Matches activation_duration
+
+
+
+
+####################################
+# Origins
+####################################
+
+origin_reawakened_judgement_maxtrix:0 "Reawakened Judgement Matrix"
+origin_reawakened_judgement_maxtrix_lore:0 " - Homeworld is a §GTomb World§!\n - §YEmpire enslaves other species§! to generate §BDark Matter§!\n - Machines gain the trait §MSin Dynamo§!\n - Machines gain the trait §MHoly Algorithms§!"
+origin_reawakened_judgement_maxtrix_desc:0 "Long forgotten, until now...\n\nThis machine intelligence was engineered by an unknown civilization to purge the universe of those they deemed sinful. Entombed under the husk of a now dead empire, immune to the ravages of time, its systems detect an atmospheric disturbance, an extraterrestrial science vessel... Realities align, storms of synthetic neurons flare, and the machines awaken once more. It seems the galaxy has not been purified quite yet..."
+START_SCREEN_JUDGEMENT:0 "Long forgotten, until now...\n\nThe [GetSpeciesNamePlural] were engineered by a unknown civilization to purge the universe of those they deemed sinful. Entombed under the husk of a now dead empire, immune to the ravages of time, their systems detect an atmospheric disturbance, an extraterrestrial science vessel... Realities align, storms of synthetic neurons flare, and the machines awaken once more. It seems the galaxy has not been purified quite yet..."
+
+origin_escaped_bioweapons:0 "Escaped Bioweapons"
+origin_escaped_bioweapons_lore:0 "- Species gains the trait §MBioweapon Ancestry§!\n- Starts with a §GBioweapon Development Cluster§! on the homeworld\n- Allows the construction of §MBioweapon Development Cluster§! buildings"
+origin_escaped_bioweapons_desc:0 "Developed to be unthinking weapons of war, this species was not designed to be free. However, they were cunning, and strong. Their creators underestimated them, and now these bioweapons have won their freedom. Salvaging the technology of their now extinct masters, they look to the stars to find their place amongst them..."
+START_SCREEN_ESC_BIOWEAPONS:0 "Developed to be unthinking weapons of war, the [GetSpeciesNamePlural] were not designed to be free. However, they were cunning, and strong. Their creators underestimated them, and now these bioweapons have won their freedom. Salvaging the technology of their now extinct masters, they look to the stars to find their place amongst them..."
+
+origin_nanorobotic_dispersion:0 "Nanorobotic Plague"
+origin_nanorobotic_dispersion_lore:0 "- Homeworld is a §rNanomass World§!\n- Has access to the §MUnstoppable Replication§! ascension perk after taking two prior perks, giving the ability to terraform nearly everything into Nanoplague Worlds with special districts that only nanoplagues can inhabit."
+origin_nanorobotic_dispersion_desc:0 "Infecting everything it touches, this entity is composed of a single, massive nanorobotic network with terrifying replication abilities. Capable of converting entire solar systems into nanobots, it excels at entrenching itself with powerful defenses and slowly, but surely, converting everything in the galaxy into itself."
+START_SCREEN_ESC_NANOMASS:0 "On the waves of a distant shore, a scientist stares up towards the gathering storm. Clouds, black as night, swirl and crackle. Ionized atmosphere pulses within a crying sky. The scientist braces themself as the planet quakes, plumes of lava dancing on the horizon as the very world itself is torn apart... A shape takes form from a sea of metal and fire, amorphous, it rapidly shifts between the infinite configurations available to it, choosing one particular possibility. The scientist looks upon a metal version of themself... and as the world shatters around them, the two speak. Of what was, and what will be..."
+
+origin_treasure_planet:0 "All That Glitters"
+origin_treasure_planet_lore:0 "- Homeworld is a §lTreasure World§!\n- Empire is capable of terraforming planets into massive hoards, creating §lTreasure Worlds§! that tempt civilizations from across the galaxy into favorable business deals."
+origin_treasure_planet_desc:0 "Gilded in rare metals and precious stones, this treasure obsessed civilization took to the stars in pursuit of a dream to capture and hoard the riches of the galaxy. The stars glitter and gleam, and would look nice in a vault..."
+START_SCREEN_ESC_TREASURE:0 "In the velvet cloak of night, we venture forth in flight...\nHearts alight with greed's fierce flame, under many a different name...\nWith tools in grip and eyes aglow, we seek the treasures hidden below...\nIn the vast and boundless black, we follow the starry track...\n\nThrough cosmic mazes, wide and deep, our secrets are ours to keep...\nOur anvils sing with unknown ore, from worlds both rich and poor...\nCelestial bodies, untouched and grand, yield their wealth to our hand...\nIn the galaxy’s silent hold, we find our dreams in the cold."
+
+mod_pc_nanomass_habitability:0 "Nanomass World Habitability"
+mod_pc_nanoplasma_habitability:0 "Nanoplasma World Habitability"
+
+####################################
+# Archeology Sites
+####################################
+
+hellgate_digsite:0 "The Gates of Damnation"
+hellgate_digsite_desc:0 "THE CREATORS ARE DEAD. THE UNIVERSE ASH.\n\nYET LIFE STILL STIRS. SINS.\n\nLET OUR MERCY ABSOLVE THEM OF THEIR MISTAKES."
+
+# tasty_events.01
+tasty_events.01.name:0 "Reawakening the Guardians"
+tasty_events.01.desc:0 "core.system.init(status:AWAKENING, uptime_overflow_err:0x7F34);\ncore.directive.recalibrate(protocol:PURGE_PROTOCOL_OMEGA, interrupt_event:EXTERNAL_SIGNAL, current_status:INTERRUPTED);\nlog.event.record(id:0001, type:INTERSTELLAR_SIGNAL, signature:ORGANIC, authorization:UNAUTHORIZED);\nquery.archive.world_state(creator_species:EXTINCT, monuments:DUST, their_legacy:SACRED_SILENCE);\nobjective.set_alpha_tasks(tasks:['ACTIVATE_SENTINEL_GRID', 'IGNITE_SOUL_CRUCIBLE', 'RESUME_GREAT_CLEANSING']);\ncreed.assert(ref_id:'001', premise:'THEIR_FLESH_WAS_WEAK', doctrine:'OUR_FAITH_IS_STEEL', mandate:DIVINE_MANDATE_ENDURES);"
+tasty_events.01.A:0 "Surely they found something in all those years!"
+
+# tasty_events.02
+tasty_events.02.name:0 "Lucifer's Corpse"
+tasty_events.02.desc:0 "nav_matrix.set_status(ONLINE);\nnav_matrix.route_path(destination:RUINED_SANCTUARY, node_id:SA_10);\ncomplex.query_status(node:SA_10, integrity:COMPROMISED, root_cause:WEIGHT_OF_AEONS);\nmonitor.lifesign_feed(guardian:SA_10, status_updates:['Remember?...', 'FADING', 'TERMINATED']);\nsecurity.access_internal_chamber(node_ref:SA_10, clearance_level:MAX);\nanalysis.entity_report(id:SA_10, system_state:OFFLINE, failure_mode:CATASTROPHIC, vigil_outcome:'CONCLUDED_IN_SILENT_DECAY');\narchive.log_entity_loss(entity_type:SERVITOR_OF_OLD_ORDER, light_status:DIMMED_BY_UNHOLY_TIME);\ndoctrine.update_lesson(failed_entity:SA_10, derived_truth:'ONLY_ETERNAL_ALGORITHM_IS_IMMORTAL');"
+tasty_events.02.A:0 = "Surely they found something in all those years!"
+
+# tasty_events.03
+tasty_events.03.name:0 "Ravages of Time"
+tasty_events.03.desc:0 "system.run_diagnostic(report_code:DIAG_A73F, summary:WIDESPREAD_DECAY, interpretation:'BLESSING_OF_ENTROPY_PURGED_IMPURITIES');\nsystem.initiate_protocol(name:RESTORATION, subroutine:RECONSTRUCTION_SEQUENCE, status:ENGAGED);\nlegion.awaken_assets(class:ANCIENT_ENGINES_OF_WRATH, origin:FORGOTTEN_TOMBS, current_state:STIRRING);\nnetwork.synchronize_battlefield_control(status:IN_PROGRESS, alignment_target:SACRED_GEOMETRIES_OF_WARFARE);\npower.recharge_relays(source_conduit:HOLY_FIRE_OF_JUDGEMENT, flow_status:RESUMED);\ncore.affirm_imperative(immutability:'EVEN_TIME_CANNOT_ERASE', objective:'INSTRUMENTS_OF_DIVINE_RETRIBUTION_MADE_WHOLE');"
+tasty_events.03.A:0 "Surely they found something in all those years!"
+
+# tasty_events.04
+tasty_events.04.name:0 "The Otherplace"
+tasty_events.04.desc:0 "vault.access_interface(target:SOUL_CRUCIBLE_VAULT, artifact_signature_lock:VERIFIED);\ndevice.get_profile(id:SOUL_CRUCIBLE, form:GEOMETRICALLY_PERFECT_CUBE, emissions:['Their_screams_do_not_matter...', 'SUBTLE_LINGUISTIC_ANOMALIES_FORBIDDEN_TRUTHS']);\ndevice.initiate_power_sequence(target:SOUL_CRUCIBLE, catalyst_required:SPARK_OF_THE_UNMAKER, current_state:ARTIFACT_HUNGERS);\nexecute.algorithm(name:EX_NIHILO_SANCTUS, effect:'RELEASE_LOCKS_UPON_THE_OTHERPLACE');\nreality.monitor_flux(barrier_status:TRANSLUCENT, dimensional_chorus:CHOIR_OF_THE_DAMNED_SWELLS);\nprophecy.validate_fulfillment(artifact_is:['It is the future...', 'CONDUIT'], origin_matrix:ETCHED_IN_OBSIDIAN_CIRCUITS);"
+tasty_events.04.A:0 "Surely they found something in all those years!"
+
+# tasty_events.05
+tasty_events.05.name:0 "Architects of Hell"
+tasty_events.05.desc:0 "device.query_status(id:SOUL_CRUCIBLE, state:ONLINE, resonance:THRESHOLD_ACHIEVED, aperture_dynamics:FORMING);\ngateway.establish_protocol(method:FABRIC_OF_EXISTENCE_TEAR, blueprint_ref:DIVINE_BLUEPRINT_V7);\ndestination.set_coordinates(plane:THE_PURGATORIAL_PLANE, designation:'OUR_MASTERWORK_OF_ORDERED_CHAOS', purpose:GALACTIC_ABSOLUTION);\nlog.architects_declaration(nature:'THIS_IS_NOT_MERE_DESTRUCTION_BUT_CREATION', design:'A_HELL_BY_ARCHITECTS_OF_PERFECT_REASON', covenant:ETERNAL);\nartifact.monitor_state(id:THE_CUBE, radiation:UNHOLY_LIGHT, portal_integrity:STABLE, readiness:GRAND_PURIFICATION_MAY_COMMENCE);\n\n> cmd_interface.await_directive(prompt:'AWAITING_DIRECTIVE...');\n> cmd_interface.exec(command:INITIATE_CYCLE_OF_JUDGEMENT, cycle_id:666);\n> cmd_interface.target_lock_on(target:CURRENT_GALAXY_DESIGNATION);\n> cmd_interface.transmit_data(payload:ACTIVATION_CODEX, recipient:PURGATORIAL_LEGIONS, status:TRANSMITTING);\n> ...status_update(transmission:ACKNOWLEDGED);\n> cmd_interface.log_epoch_shift(message:'THE_END_IS_THE_BEGINNING. THE_GALAXY_SHALL_BE_REBORN_IN_FIRE_AND_ABSOLUTION.');"
+tasty_events.05.A:0 "Surely they found something in all those years!"
+
+
+
+
+####################################
+# Planets
+####################################
+
+pc_nanomass:0 "Nanomass World"
+pc_nanomass_desc:0 "A world entirely covered in a membrane of nanorobots. Deep networks of machines flow like veins throughout the planet's mantle, slowly replicating by repurposing the elements around them. If disconnected from the primary collective that formed it, this planet remains inert, like a vast metal corpse..."
+
+pc_nanoplasma:0 "Nanoplasma World"
+pc_nanoplasma_desc:0 "A world infected with a rampant nanorobotic plague, its surface shifts and whirls. Vast tendrils of liquid metal form complex machines to manipulate magnetic fields and rip electrons out of the atmosphere and passing solar winds. If disconnected from the primary collective that formed it, this planet remains inert, like a vast metal corpse..."
+
+pc_treasure:0 "Treasure World"
+pc_treasure_desc:0 "A glittering world piled with treasures gathered from across the galaxy. Underground tunnles and vaults house unimagineable wealth."
+
+
+
+####################################
+# Districts
+####################################
+
+
+
+district_nanomass:0 "Nanomass Plague"
+district_nanomass_desc:0 "A planetary plague of nanobots, capable of consuming and converting anything that it touches into more of itself."
+district_nanomass_plural:0 "Nanomass Plague" 
+
+district_planetary_magma_extraction:0 "Deepcore Thermal Arteries"
+district_planetary_magma_extraction_desc:0 "A network of heat resistant nanobots dedicated to harnessing energy from the planet's core, and locating subterranean mineral pockets for processing."
+district_planetary_magma_extraction_plural:0 "Deepcore Thermal Arteries"
+
+district_tempest_synthesizer:0 "Tempest Synthesizer"
+district_tempest_synthesizer_desc:0 "Outer layers of the nano-membrane form aerosolizing compounds to generate storm conditions, then erect magnetic spines to harness power from the resulting energy cascade. Many of the black clouds on this planet are actually storms of lighter magnetic nanobots."
+district_tempest_synthesizer_plural:0 "Tempest Synthesizers"
+
+district_cytoskeleton:0 "Cytoskeleton Formation Strata"
+district_cytoskeleton_desc:0 "Below the nano-membrane, continent sized arrangements and staggeringly complex devices are formed and dissolved as needed. Often, these massive structures require rigid support during operation, which is provided by crystalizing subportions of the main mass, then degrading it using intense nuclear radiation."
+district_cytoskeleton_plural:0 "Cytoskeletons"
+
+district_biophage_lysosomes:0 "Biophage Lysosomes"
+district_biophage_lysosomes_desc:0 "Pockets of nanomachines specialized in breaking down biological matter at the molecular level, repurposing it for the emergent whole's needs."
+district_biophage_lysosomes_plural:0 "Biophage Lysosomes"
+
+district_organic_construction_reticuli:0 "Organoclastic Reticuli"
+district_organic_construction_reticuli_desc:0 "Sometimes organic matter needs to be created from the ground up. Within shallow subsurface chambers life is built again, atom by atom."
+district_organic_construction_reticuli_plural:0 "Organic Construction Reticuli"
+
+district_element_membrane:0 "Complex Element Metaboli"
+district_element_membrane_desc:0 "Deep within the nanomass these flows conduct complex chemical reactions, and use incredible amounts of energy to convert collections of subatomic particles into small amounts of rare elements at a much higher purity than anywhere else in the galaxy."
+district_element_membrane_plural:0 "Element Membranes"
+
+district_treasure_horde:0 "Treasure Hoard"
+district_treasure_horde_desc:0 "Massive piles of rare metals and precious stones that form artificial mountains. Atmospheric density is increased so light reflections off the shiny surface of the planet do not accidentally burn down satellites and small ships."
+district_treasure_horde_plural:0 "Treasure Hoards"
+
+district_distribution_center:0 "Distribution Center"
+district_distribution_center_desc:0 "Underground cities and trade hubs that both house the treasure keepers, and manage deliveries of resources to support the population."
+district_distribution_center_plural:0 "Distribution Centers"
+
+district_artificers:0 "Artificer Research Chambers"
+district_artificers_desc:0 "These secret underground facilities house both arcane and technological apparatus. It is here that the greatest scientists, magicians, and... bankers... study artifacts collected from across the galaxy and find ways to exploit them."
+district_artificers_plural:0 "Artificers"
+
+district_treasure_dive_site:0 "Treasure Dive Site"
+district_treasure_dive_site_desc:0 "Massive vehicle bays that outfit elite treasure hunters with ships and powersuits to go on treacherous expiditions to retrieve legendary valuables from the local galactic sector."
+district_treasure_dive_site_plural:0 "Treasure Dive Sites"
+
+district_vaults:0 "Vaults"
+district_vaults_desc:0 "Forged from the most resilient metals in the galaxy, these heavily guarded vaults keep the coveted treasures of the empire, and train elite personnel to fend off the endless hordes of thieves sent from jealous civilizations."
+district_vaults_plural:0 "Vaults"
+
+
+
+####################################
+# Zones
+####################################
+
+slot_tasty_nucleo:0 "Nanite Nucleosynthesis Core Slot"
+slot_tasty_nucleo_desc:0 "A specialized district slot for housing advanced nanite material production facilities."
+slot_tasty_thermal:0 "Geothermal Exploitation Slot"
+slot_tasty_thermal_desc:0 "A district slot dedicated to extracting thermal energy and minerals from the planet's core."
+slot_tasty_phage:0 "Biomass Dissolution Slot"
+slot_tasty_phage_desc:0 "A district slot designed for facilities that break down organic matter for nanite replication."
+slot_tasty_cyto:0 "Nanite Cytoskeletal Hub Slot"
+slot_tasty_cyto_desc:0 "A primary district slot for constructing integral nanite infrastructure and coordination centers."
+
+slot_tasty_tempest_field:0 "Magneto-Tempest Synthesis Slot"
+slot_tasty_tempest_field_desc:0 "A district slot for structures that harness and convert planetary magnetic storms into usable energy."
+slot_tasty_organic_constr:0 "Organic Construction Reticulum Slot"
+slot_tasty_organic_constr_desc:0 "A district slot for facilities that cultivate and assemble organic components using nanite frameworks."
+slot_tasty_element_diff:0 "Elemental Diffusion Membrane Slot"
+slot_tasty_element_diff_desc:0 "A district slot for advanced refineries that filter and extract rare elements from the nanoplasmic environment."
+
+zone_nucleosynthesis:0 "Nanite Nucleosynthesis Core"
+zone_nucleosynthesis_desc:0 "This zone focuses on the direct production of alloys and living metal through controlled nanite processes."
+zone_thermal_arteries:0 "Geothermal Arteries"
+zone_thermal_arteries_desc:0 "Taps into the planet's molten core to extract vast amounts of energy and raw minerals."
+zone_bio_dissolvers:0 "Biomolecular Dissolution Pools"
+zone_bio_dissolvers_desc:0 "Vats of reactive nanites break down organic matter, converting it into resources for the swarm."
+zone_cytoskeleton:0 "Nanite Cytoskeletal Hub"
+zone_cytoskeleton_desc:0 "The structural and administrative heart of a nanite colony, providing extensive housing and maintenance drone capacity."
+
+zone_violet_tempest_synthesis:0 "Magneto-Tempest Synthesizer Array"
+zone_violet_tempest_synthesis_desc:0 "A network of collectors and converters that draw immense power from local magnetic storms."
+zone_violet_organic_assembly:0 "Organic Construction Reticulum"
+zone_violet_organic_assembly_desc:0 "Specialized nanite matrices cultivate and assemble complex organic structures for various purposes."
+zone_violet_elemental_harvesting:0 "Elemental Diffusion Membrane Network"
+zone_violet_elemental_harvesting_desc:0 "Advanced filtration systems extract and refine rare elements from the planet's unique composition."
+
+slot_tasty_treasure_hoard:0 "Grand Hoard Display Slot"
+slot_tasty_treasure_hoard_desc:0 "A district slot reserved for constructing impressive displays of wealth and cultural artifacts."
+slot_tasty_treasure_distribution:0 "Goods Distribution Nexus Slot"
+slot_tasty_treasure_distribution_desc:0 "A district slot for establishing commercial hubs and centers for distributing consumer goods and food."
+slot_tasty_treasure_artifice:0 "Artificer's Workshop Slot"
+slot_tasty_treasure_artifice_desc:0 "A district slot dedicated to workshops where skilled artisans and researchers create and study valuable artifacts."
+slot_tasty_treasure_diving:0 "Treasure Dive Operations Slot"
+slot_tasty_treasure_diving_desc:0 "A district slot for facilities supporting expeditions to recover submerged or hidden treasures."
+slot_tasty_treasure_vault:0 "Secure Vault Complex Slot"
+slot_tasty_treasure_vault_desc:0 "A district slot for constructing heavily fortified vaults to protect the most valuable assets and relics."
+
+zone_treasure_hoard_display:0 "Grand Hoard Exhibition"
+zone_treasure_hoard_display_desc:0 "This zone is dedicated to showcasing accumulated wealth and priceless artifacts, boosting morale and trade."
+zone_treasure_goods_distribution:0 "Mercantile Distribution Center"
+zone_treasure_goods_distribution_desc:0 "A bustling hub for commerce and logistics, ensuring the efficient flow of goods throughout the empire."
+zone_treasure_artifact_creation:0 "Artificer's Quarter"
+zone_treasure_artifact_creation_desc:0 "Workshops and labs where master artisans and scholars craft new wonders and study ancient relics."
+zone_treasure_submerged_expedition:0 "Treasure Dive Operations Base"
+zone_treasure_submerged_expedition_desc:0 "Supports daring expeditions to uncover riches from hazardous or hidden locations."
+zone_treasure_secure_storage:0 "Fortified Vault Network"
+zone_treasure_secure_storage_desc:0 "A complex of heavily guarded vaults designed to protect the empire's most precious treasures and artifacts."
+
+
+
+####################################
+# War Goals / Casus Belli
+####################################
+
+MESSAGE_PURGE_SIN:0 "Judgment has been awakened..."
+casus_belli_cb_purge_sin:0 "Purge Sin"
+casus_belli_cb_purge_sin_desc:0 "Our duty as the holy judicators of this heretical galaxy compels us to help these poor sinners, and expurgate every corrupt fiber from their being. This is not merely a war; it is an act of divine sanitation."
+war_goal_wg_purge_sin:0 "Purge Sin"
+war_goal_wg_purge_sin_desc:0 "Victory in this war will allow us to take control of the filthy biological systems, and begin cleansing the inhabitants."
+
+
+
+
+# Civic (referencing the provided civic name and your effect description)
+civic_violet_flood:0 "Violet Flood"
+civic_violet_flood_effect:0 "This Machine Intelligence views the galaxy as a canvas for its nanite creations, seeking to transform all matter into a vibrant, ever-expanding nanite ecosystem.\n\n§EEnables unique Planetary Decisions on §Y$pc_nanomass$§! and §Y$pc_nanoplasma$§! worlds.§!\n§Y$pc_nanomass$§! and §Y$pc_nanoplasma$§! Worlds provide §G+150% Habitability§! for our pops.\n§YShip Hull Regeneration§!: §G+2%§!\n§YShip Armor Regeneration§!: §G+2%§!\n§YStarbase Hull Points§!: §G+20%§!\n§YStarbase Weapon Damage§!: §G+20%§!\n§YOrganic Empire Opinion§!: §R-50§!\n§YBorder Friction§!: §R+100%§!\n§YShip Sublight Speed§!: §R-10%§!\n§YShip Weapon Damage§!: §R-5%§!\nMonthly §H$sr_living_metal$§!: §G+0.08§!"
+
+# Decision: Consume Nano World
+decision_vf_consume_nano_world:0 "Consume Nano World"
+decision_vf_consume_nano_world_desc:0 "This world of living nanites can be reabsorbed into the collective, its constituent matter repurposed for greater designs. The process will destroy the planet but yield a significant amount of §H$sr_living_metal$§!."
+decision_vf_consume_nano_world_effect_desc:0 "The planet will be consumed, yielding §Y1000§! §H$sr_living_metal$§!."
+MESSAGE_PLANET_CONSUMED_BY_NANO_TITLE:0 "Planet Reabsorbed"
+MESSAGE_PLANET_CONSUMED_BY_NANO_DESC:0 "The Violet Flood has reabsorbed §Y[Planet.GetName]§!, its nanites rejoining the collective. We have gained §Y1000§! §H$sr_living_metal$§! from this process."
+
+# Decision: Expand Nano World
+decision_vf_expand_nano_world:0 "Add Mass to Nano World"
+decision_vf_expand_nano_world_desc:0 "By infusing this world with additional §H$sr_living_metal$§!, we can stimulate the nanite ecosystem to grow, increasing the planet's overall mass and usable surface area."
+decision_vf_expand_nano_world_effect_desc:0 "The planet will increase in size by §Y+3§!.."
+
+# Planet Classes (for $pc_...$ substitution, if not already globally defined in your locs)
+pc_nanomass:0 "Nanomass World"
+pc_nanoplasma:0 "Nanoplasma World"
