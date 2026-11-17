@@ -1,0 +1,24 @@
+
+
+
+
+
+#music = {
+#	name = "Bryson Sphere"
+#	file = "BrysonSphere.ogg"
+#	volume = 0.80
+#}
+
+music = {
+	name = "Rewired"
+	file = "Rewired.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Children of the Omnissiah"
+	file = "Children_of_the_Omnissiah.ogg"
+	volume = 0.80
+}
+
+
