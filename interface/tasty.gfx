@@ -1,0 +1,290 @@
+
+
+
+####################################
+# Ascension Perks
+####################################
+
+
+spriteTypes = {
+		spriteType = {
+			name = "GFX_ap_metamorphasis"
+			textureFile = "gfx/interface/icons/ascension_perks/ap_metamorphasis.dds"
+		}
+	}
+
+spriteTypes = {
+		spriteType = {
+			name = "GFX_ap_nano_worlds"
+			textureFile = "gfx/interface/icons/ascension_perks/ap_nano_worlds.dds"
+		}
+	}
+
+
+####################################
+# Civics
+####################################
+
+
+spriteType = {
+	name = "GFX_civic_burger_flippers"
+	texturefile = "gfx/interface/icons/governments/civics/civic_burger_flippers.dds"
+}
+
+spriteType = {
+	name = "GFX_civic_mother_of_monsters"
+	texturefile = "gfx/interface/icons/governments/civics/civic_mother_of_monsters.dds"
+}
+
+spriteType = {
+	name = "GFX_civic_violet_flood"
+	texturefile = "gfx/interface/icons/governments/civics/civic_violet_flood.dds"
+}
+
+spriteType = {
+	name = "GFX_civic_evolved_adorability"
+	texturefile = "gfx/interface/icons/governments/civics/civic_evolved_adorability.dds"
+}
+
+####################################
+# Relics
+####################################
+
+
+spriteTypes = {
+
+	# Soul Crucible
+	SpriteType = {
+		name = "GFX_relic_soul_crucible"
+		texturefile = "gfx/interface/icons/relics/r_soul_crucible.dds"			
+		effectFile = "gfx/FX/buttonstate.shader"
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/r_orb_shine.dds"			
+			animationtexturefile = "gfx/interface/icons/relics/crystal_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 18				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "rotating"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+		
+		animation = {
+			animationmaskfile = "gfx/interface/icons/relics/r_orb_shine.dds"			
+			animationtexturefile = "gfx/interface/icons/relics/glow_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 20				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+	# More relics
+
+}
+
+
+
+####################################
+# Origins
+####################################
+
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_reawakened_judement_matrix"
+		texturefile = "gfx/event_pictures/origins/origins_judgement_matrix.dds"
+		alwaystransparent = yes
+	}
+
+}
+
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_origins_escaped_bioweapons"
+		texturefile = "gfx/event_pictures/origins/origins_escaped_bioweapons.dds"
+		alwaystransparent = yes
+	}
+
+}
+
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_origins_nano_plague"
+		texturefile = "gfx/event_pictures/origins/origins_nano_plague.dds"
+		alwaystransparent = yes
+	}
+
+}
+
+
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_origin_treasure_planet"
+		texturefile = "gfx/event_pictures/origins/origin_treasure_planet.dds"
+		alwaystransparent = yes
+	}
+
+}
+
+
+####################################
+# Event Pictures
+####################################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_achieve_metamorphosis"
+		texturefile = "gfx/event_pictures/achieve_metamorphosis.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_hellgate_entrance"
+		texturefile = "gfx/event_pictures/Hellgate_Entrance_00.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_hellgate_1"
+		texturefile = "gfx/event_pictures/Hellgate_1.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_hellgate_2"
+		texturefile = "gfx/event_pictures/Hellgate_2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_hellgate_3"
+		texturefile = "gfx/event_pictures/Hellgate_3.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_hellgate_4"
+		texturefile = "gfx/event_pictures/Hellgate_4.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_hellgate_5"
+		texturefile = "gfx/event_pictures/Hellgate_5.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}
+
+
+
+####################################
+# Districts
+####################################
+
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_district_nanomass"
+		texturefile = "gfx/interface/icons/districts/district_nanomass.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_district_biophage_lysosomes"
+		texturefile = "gfx/interface/icons/districts/district_biophage_lysosomes.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_district_planetary_magma_extraction"
+		texturefile = "gfx/interface/icons/districts/district_planetary_magma_extraction.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_district_cytoskeleton"
+		texturefile = "gfx/interface/icons/districts/district_cytoskeleton.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_district_tempest_synthesizer"
+		texturefile = "gfx/interface/icons/districts/district_tempest_synthesizer.dds"
+		alwaystransparent = yes
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_district_element_membrane"
+		texturefile = "gfx/interface/icons/districts/district_element_membrane.dds"
+		alwaystransparent = yes
+	}
+}
+
+
+
+####################################
+# Planet Icons
+####################################
+
+
+spriteTypes = {
+	spriteType = { name = "GFX_planet_type_plush"		texturefile = "gfx/interface/icons/planet_classes/paluush_plush_icon.dds"			alwaystransparent = yes }
+}
+
+
+####################################
+# War Goals / Casus Belli
+####################################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wg_purge_sin"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_war.dds"
+		noOfFrames = 2
+	}
+}
