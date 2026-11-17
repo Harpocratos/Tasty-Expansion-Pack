@@ -1,0 +1,47 @@
+
+
+
+
+#sound =
+#{
+#	name = "mammalian_greetings_01"
+#	file = "vo/phenotypes/mammalian/mammalian_greetings_01.wav"
+#}
+
+
+sound =
+{
+	name = "neko_00_greetings"
+	file = "vo/phenotypes/neko/neko_00_greetings.wav"
+}
+
+sound =
+{
+	name = "wario_00_greetings"
+	file = "vo/phenotypes/neko/wario_00_greetings.wav"
+}
+
+
+sound =
+{
+	name = "wario_01_greetings"
+	file = "vo/phenotypes/neko/wario_01_greetings.wav"
+}
+
+
+sound =
+{
+	name = "neutron_00_greetings"
+	file = "vo/phenotypes/neko/neutron_00_greetings.wav"
+}
+
+
+sound =
+{
+	name = "megamind_00_greetings"
+	file = "vo/phenotypes/neko/megamind_00_greetings.wav"
+}
+
+
+
+

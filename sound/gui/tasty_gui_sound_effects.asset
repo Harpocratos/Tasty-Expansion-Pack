@@ -1,0 +1,58 @@
+
+
+
+
+
+
+soundeffect = {
+	name = neko_00_greetings
+	sounds = {
+		sound = neko_00_greetings
+        # More here to randomize
+	}  
+	volume = 0.35
+}
+
+soundeffect = {
+	name = wario_00_greetings
+	sounds = {
+		sound = wario_00_greetings
+        # More here to randomize
+	}  
+	volume = 0.35
+}
+
+soundeffect = {
+	name = wario_01_greetings
+	sounds = {
+		sound = wario_01_greetings
+        # More here to randomize
+	}  
+	volume = 0.2
+}
+
+soundeffect = {
+	name = neutron_00_greetings
+	sounds = {
+		sound = neutron_00_greetings
+        # More here to randomize
+	}  
+	volume = 0.5
+}
+
+
+soundeffect = {
+	name = megamind_00_greetings
+	sounds = {
+		sound = megamind_00_greetings
+        # More here to randomize
+	}  
+	volume = 0.22
+}
+
+
+
+
+
+
+
