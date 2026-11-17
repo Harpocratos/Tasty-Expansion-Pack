@@ -1,0 +1,47 @@
+New species traits that awaken your inner chef and allow you to make a 5 star restaurant worthy of feeding a galactic empire! :)
+
+Allows advanced gene editing of populations to turn them into tasty snacks for hungry carnivorous species. (This boosts a species' cattle food yield and market value.)
+
+Includes:
+- Multiple applications of the "Delicious" trait!
+- Turning species DNA into a secret recipe to aid in snackifying them.
+- Traits like Crunchy, Juicy, and Really F♥♥king Delicious!
+- Moar
+
+What are you waiting for! Go out there and make some awesome food! (War Crimes not included. Serve Merman Burgers and Federation Patties at your own risk.)
+
+=======
+
+Additional Morbius related content may or may not be hidden in this mod...
+Theoretically things like:
+- Morb Blooded civic
+- More Morb Blooded civic
+- Morbified Army
+- Michael Morbius Clone. It's morbin time...
+
+
+
+======= Under Development =======
+
+Includes Hivemind Expansion:
+- Mother of Monsters civic (SELECTABLE, COMPLETE), allowing the creation of Kaiju, Apex Predators, and Extinction Swarms after reaching max genetic ascension. Hives that birth great monsters are evolved to crush and consume other species with reckless abandon, causing massive collateral damage.
+- Kaiju take years to grow, but once mature a single Kaiju can spell doom for a lesser species.
+- Apex Predators are expensive, but are designed to slaughter armies without fear or tiring.
+- Extinction Swarms aren't cheap, but for an advanced hive they serve as a powerful augment to Xeno-armies.
+
+Includes Hivemind Expansion:
+- Embryonic Hive civic (PROBABLY SHOULD NOT SELECT, Has enough gene perks to be relevant (roughly 30% of intended content), but none of the descriptions have been finished so reading the unlocalized text code will give you ligma.)
+- Includes Metamorphosis Ascension
+- Test perks for Embryonic civic
+
+=======
+
+
+
+
+The tasty expansion pack is a tasty mod that is currently in development! (Fully functional but allows instant application in empire creator for testing purposes.)
+
+== UPDATE 2/28/2024 ==
+- Metamorphosis now works again! It requires a species to have at least 5 prior ascension perks, the Embryonic Organism Civic, and the Biological Ascension Tradition completed. This replaces the depreciated Evolutionary Mastery requirement.You can once again become a timebomb of a species, becoming a biological nightmare for the rest of the galaxy if you survive fragile low habitability long enough to undergoe Metamorphosis!
+- Added spiffy new metamorphosis icon art!
+======================
